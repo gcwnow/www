@@ -1,9 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-<title>GCW Zero</title>
-</head>
-<body>
-<h1>GCW Zero</h1>
-<p>Coming soon!</p>
-</body>
+ <head>
+  <title>GCW Zero - An Open Source Gaming Console Built by Gamers for Gamers...</title>
+  <META HTTP-EQUIV="tile-type" tile="text/html; charset=ISO-8859-1">
+  <link href="css/base.css" rel="stylesheet" title="base style" type="text/css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script type="text/javascript">                                         
+var dir = "images/slideshow/";
+
+var img = ["01.png", "02.png", "03.png", "08b.png", "04.png", "05.png", "03b.png", "09b.png", "06.png", "05b.png", "07.png", "08.png", "09.png", "05c.png", "10.png"];
+
+img = appendValue(dir, img);
+
+img.current = 0;
+
+function appendValue(value, array) {
+    for (var i = 0; i < array.length; i++) {
+        array[i] = value + array[i];
+    }
+  	return array;
+}
+
+function switchImage(i) {
+    if ($('.slideshow2').css("z-index") == 1) {
+        $('.slideshow1').fadeOut(
+        function() {
+            this.src = img[img.current];
+            $('.slideshow2').css("z-index", 2);
+            $('.slideshow1').css("z-index", 1);
+            $('.slideshow1').show();
+        });
+    } else {
+        $('.slideshow2').fadeOut(
+        function() {
+            this.src = img[img.current];
+            $('.slideshow1').css("z-index", 2);
+            $('.slideshow2').css("z-index", 1);
+            $('.slideshow2').show();
+        });
+    }   
+}
+
+function nextImage() {
+    img.current = (img.current+1) % img.length;
+    switchImage(img.current);
+}
+function previousImage() {
+    if (--img.current < 0) {
+        img.current = img.length - 1;
+    }
+    switchImage(img.current);
+}
+
+function autoSwitch() {
+    window.setInterval(function() {nextImage()}, 4000);
+}
+
+onload = function() {
+    //switchImage(0);
+    autoSwitch();
+}
+
+</script>
+ </head>
+ <body>
+
+<div id="header">
+<div id="header_box">
+GCW Zero
+<div id="navigation">
+<ul>
+<li><a href='index.html'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
+<li><a href='specifications.html'>Specifications</a></li>
+<li><a href='media.html'>Media</a></li>
+<li><a href='store.html'>Where To Buy</a></li>
+<li><a href='about.html'>About</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="container">
+<div id="carousel">
+<img class="slideshow1" src="images/slideshow/01.png" style="position: absolute;">
+<img class="slideshow2" src="images/slideshow/02.png" style="position: absolute;">
+</div>
+
+<div id="banner">
+<a href="about.html">
+<!--<img src="images/banner_1.png">-->
+</a>
+</div>
+
+<div class="tile_left">
+<div class="tile_box_left">
+<div class="tile_box_text">
+<a href="http://www.kickstarter.com/projects/gcw/1795282016?token=56ffdb8d">
+<h1>Kickstarter</h1>
+We need your help to fund production. If there is a large user base, it is easier to convince both hobby and indie developers to make software for the Zero. >>
+</a>
+</div>
+</div>
+</div>
+
+<div class="tile_right">
+<div class="tile_box_right">
+<div class="tile_box_text">
+<a href="media.html#games">
+<h1>Games</h1>
+It is powerful enough to run classic PC games, emulate the game consoles we grew up with and run homebrew games seamlessly at high frame rates. >>
+</a>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<div id="footer_box">
+<a href="#">Legal</a> | <a href="mailto:contact@gcw-zero.com">Contact</a>
+</div>
+</div>
+
+</div>
+
+ </body>
 </html>
