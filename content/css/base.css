@@ -1,0 +1,486 @@
+@font-face {
+    font-family: GCW Zero;
+    src: url(../fonts/gcwzero.ttf);
+    font-weight: 400; /* Default font weight. */
+}
+
+@font-face {
+    font-family: Levenim MT;
+    src: url(../fonts/lvnm.ttf);
+    font-weight: 400; /* Default font weight. */
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #212121; /*#e5e5e5;*/
+    font-family: Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: left;
+}
+
+a {
+    color: rgb(154, 77, 56);/*#3d6796;rgb(154, 77, 56);*/
+    text-decoration: none;
+    outline-style: none;
+}
+
+a:link {color: rgb(154, 77, 56);}
+a:visited {color: rgb(154, 77, 56);}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {color: black;}
+
+h1 {
+    margin: 0;
+    padding: 10px 0px;
+    font-family: Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1.5em;
+}
+
+.tile_box_text h1 {
+    margin: 0;
+    padding: 10px 0px;
+    font-family: GCW Zero, Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight: normal;
+}
+
+h2 {
+    clear: both;
+    margin: 0;
+    padding: 10px 0px;
+    font-family: Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+blockquote.block_style {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(154, 77, 56);;
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+    background-image: url(../images/quote1-scaled2.png), url(../images/quote2-scaled2.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    text-indent: 2em;
+    font-style:italic;
+}
+
+#header {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid black;
+    background: #363636;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#header_box {
+    position: relative;
+    width: 800px;
+    height: auto;
+    padding: 10px 0px;
+    margin: 0px auto;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em #292929;
+}
+
+.gcwlogo1 {
+    font-family: GCW Zero, Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+.gcwlogo2 {
+    font-family: GCW Zero, Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: rgb(154, 77, 56);
+}
+
+#navigation {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navigation li {
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#navigation li a {
+    display: block;
+    padding: 10px 20px 9px 20px;
+    margin: 0px;
+    border: 0px;
+    background: #363636;
+    color: gray;
+    text-decoration: none;
+    outline-style: none;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+/*#navigation li a:active,
+#navigation li a:hover,
+#navigation li a:visited,*/
+#navigation li a:hover {
+    background: #727272; /*#a9a9aa;*/
+    color: black;
+}
+
+#container {
+    position: relative;
+    padding: 0px;
+    width: 800px;
+    margin: 0px auto;
+    border: 0px solid #a9a9a9;
+    background: transparent;
+    text-align: left;
+}
+
+#carousel {
+    position: relative;
+    width: auto;
+    height: 450px;
+    padding: 0px;
+    margin: 10px 0px;
+    border: 0px solid #a9a9a9;
+    background: url(../images/console_pic_scaled.png) black no-repeat;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#slideshow {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 409px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: 0px;
+    background: rgb(198, 196, 199);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.slideshow1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.slideshow1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 0px solid #a9a9a9;
+    background: rgb(198, 196, 199); /*rgb(188, 186, 189); rgb(226, 224, 227);#363636;*/
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 213px;
+    padding: 0px;
+    margin: 10px 0px;
+    border: 0px;
+    background: url(../images/banner_2.png) gray;/*#363636;*/
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#banner a {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 213px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+.tile_left {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.tile_right {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.tile_box_left {
+    position: relative;
+    width: auto;
+    height: 200px;
+    padding: 0px;
+    margin: 0px 5px 10px 0px;
+    border: 0px solid #a9a9a9;
+    background: url(../images/kickstarter-logo-dark-small-2.png) black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.tile_box_right {
+    position: relative;
+    width: auto;
+    height: 200px;
+    padding: 0px;
+    margin: 0px 0px 10px 5px;
+    border: 0px solid #a9a9a9;
+    background: url(../images/games.png) black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.tile_box_text {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    padding: 0px;
+    /*background: #363636;*//*#e5e5e5;*/
+    border-radius: 0px 0px 5px 5px; /* Apply border radius both the container and the anchor and anchor events. */
+    /*opacity:0.8;
+    filter:alpha(opacity=80);*/ /* For IE8 and earlier */
+    font-family: Levenim MT, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+.tile_box_text h1 {
+    color: white;
+}
+
+.tile_box_text a {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px; /* Apply border radius both the container and the anchor and anchor events. */
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(54, 54, 54) transparent;
+    /* RGBa with 0.8 opacity */
+    background: rgba(54, 54, 54, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+/*#navigation li a:active,
+#navigation li a:hover,
+#navigation li a:visited,*/
+.tile_box_text a:hover {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(114, 114, 114) transparent;
+    /* RGBa with 0.8 opacity */
+    background: rgba(114, 114, 114, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc727272, endColorstr=#cc727272);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
+    border-radius: 0px 0px 5px 5px; /* Apply border radius both the container and the anchor and anchor events. */
+    color: white;
+}
+
+.gallery_box {
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    background: gray;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery_box_image {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery_box_text {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    margin: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(54, 54, 54) transparent;
+    /* RGBa with 0.8 opacity */
+    background: rgba(54, 54, 54, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
+    border-radius: 0px 0px 5px 5px;
+}
+
+.gallery_box a {
+    display: block;
+    opacity: 1;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.gallery_box a:hover {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#footer {
+    position: relative;
+    clear: both;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    border: 0px solid black;
+}
+
+#footer_box {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0px auto;
+    color: gray;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em #292929;
+    background: #363636;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#footer_box a {
+    color: gray;
+}
+
+/*#footer a {
+    color: gray;
+    text-decoration: none;
+    outline-style: none;
+}*/
+#footer a:link {color: gray;}
+#footer a:visited {color: gray;}
+#footer a:hover {color: black;}
+#footer a:active {color: black;}
+
+.image_frontpage_right {
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+
+.image_full {
+    position: relative;
+    margin: 10px 0px;
+}
+
+a .image_full {
+    position: relative;
+    display: block;
+}
+
+.table {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 10px 0px;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.row0 {
+    display: table-cell;
+    padding: 10px;
+    border: solid #363636;
+    border-width: 1px 0px 1px 0px;
+    background-color: gray; /*rgb(154, 77, 56);*/
+}
+
+.row1 {
+    display: table-cell;
+    padding: 10px;
+    border: opx solid #C2C2C2;
+}
+
+.text_bold {
+    font-weight: bold;
+}
