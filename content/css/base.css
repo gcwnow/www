@@ -81,7 +81,7 @@ blockquote.block_style {
     width: auto;
     height: auto;
     padding: 0px;
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
     border: 0px solid black;
     background: #363636;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
@@ -135,7 +135,7 @@ blockquote.block_style {
 
 #navigation li a {
     display: block;
-    padding: 10px 20px 9px 20px;
+    padding: 10px 20px 10px 20px;
     margin: 0px;
     border: 0px;
     background: #363636;

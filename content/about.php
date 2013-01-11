@@ -1,31 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-<html>
- <head>
-  <title>GCW Zero - An Open Source Gaming Console Built by Gamers for Gamers...</title>
-  <META HTTP-EQUIV="content-type" content="text/html; charset=ISO-8859-1">
-  <link href="css/base.css" rel="stylesheet" title="base style" type="text/css">
-  <link href="images/fav2.png" rel="shortcut icon" type="image/png">
- </head>
- <body>
+<?php
+$page = "about";
+include "includes/header.php";
+?>
 
-<div id="header">
-<div id="header_box">
-GCW Zero
-<div id="navigation">
-<ul>
-<li><a href='index.html'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
-<li><a href='specifications.html'>Specifications</a></li>
-<li><a href='media.html'>Media</a></li>
-<li><a href='store.html'>Where To Buy</a></li>
-<li><a href='about.html'>About</a></li>
-</ul>
-</div>
-
-</div>
-</div>
-
-<div id="container">
 <div id="content">
 <h1>About</h1>
 
@@ -39,13 +16,6 @@ GCW Zero
 
 </div>
 
-<div id="footer">
-<div id="footer_box">
-<a href="#">Legal</a> | <a href="press.html">Press</a> | <a href="mailto:contact@gcw-zero.com">Contact</a>
-</div>
-</div>
-
-</div>
-
- </body>
-</html>
+<?php
+include "includes/footer.php";
+?>
