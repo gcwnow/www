@@ -52,11 +52,11 @@ onload = function() {
 GCW Zero
 <div id="navigation">
 <ul>
-<li><a href='index.php'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
-<li><a href='specifications.php'>Specifications</a></li>
-<li><a href='media.php'>Media</a></li>
-<li><a href='store.php'>Where To Buy</a></li>
-<li><a href='about.php'>About</a></li>
+<li><a href='/'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
+<li><a href='specifications'>Specifications</a></li>
+<li><a href='media'>Media</a></li>
+<li><a href='store'>Where To Buy</a></li>
+<li><a href='about'>About</a></li>
 </ul>
 </div>
 
