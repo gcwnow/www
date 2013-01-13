@@ -56,6 +56,7 @@ GCW Zero
 <li><a href='specifications'>Specifications</a></li>
 <li><a href='media'>Media</a></li>
 <li><a href='store'>Where To Buy</a></li>
+<li><a href='develop'>Developing</a></li>
 <li><a href='about'>About</a></li>
 </ul>
 </div>
