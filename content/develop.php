@@ -13,7 +13,7 @@ include "includes/header.php";
 # TODO: Automatically list the alphabetically largest file name that matches
 #       "files/gcw0-toolchain.*.tar.bz2".
 ?>
-<p><a href="files/gcw0-toolchain.2012-12-08.tar.bz2">GCW Zero Toolchain</a> 2012-12-08, for x86 Linux</a></p>
+<p><a href="files/opendingux-gcw0-toolchain.2012-12-11.tar.bz2">GCW Zero Toolchain</a> 2012-12-11, for x86 Linux</a></p>
 
 <p>The toolchain contains typical tools for C/C++ development, such as the compilers (GCC), binutils and remote debugger (gdb). It also contains the header files and libraries to compile and link against respectively.</p>
 <p>If you want to develop in Python (pygame) exclusively, you don't need to download the toolchain.</p>
@@ -22,7 +22,7 @@ include "includes/header.php";
 <pre>
 mkdir -p /opt
 cd /opt
-tar jxvf /path/where/you/downloaded/gcw0-toolchain.date.tar.bz2
+tar jxvf <i>/path/where/you/downloaded</i>/opendingux-gcw0-toolchain.<i>date</i>.tar.bz2
 </pre>
 <p>It has to be installed in <code>/opt</code>, otherwise some of the tools will not work.</p>
 
