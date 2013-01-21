@@ -1,6 +1,9 @@
 @font-face {
     font-family: GCW Zero;
-    src: url(../fonts/gcwzero.ttf);
+    src: url('../fonts/gcwzero.eot');
+    src: url('../fonts/gcwzero.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gcwzero.svg?#GCW Zero') format('svg'),
+        url('../fonts/gcwzero.ttf') format('truetype');
     font-weight: 400; /* Default font weight. */
 }
 
