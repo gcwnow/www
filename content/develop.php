@@ -13,6 +13,8 @@ include "includes/header.php";
 # TODO: Automatically list the alphabetically largest file name that matches
 #       "files/gcw0-toolchain.*.tar.bz2".
 ?>
+<p><a href="files/opendingux-gcw0-toolchain.2013-01-25.tar.bz2">GCW Zero Toolchain</a> 2013-01-25, for x86 Linux</a><br>
+Changes: enabled tslib and ALSA MIDI support.</p>
 <p><a href="files/opendingux-gcw0-toolchain.2012-12-11.tar.bz2">GCW Zero Toolchain</a> 2012-12-11, for x86 Linux</a></p>
 
 <p>The toolchain contains typical tools for C/C++ development, such as the compilers (GCC), binutils and remote debugger (gdb). It also contains the header files and libraries to compile and link against respectively.</p>
