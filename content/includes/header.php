@@ -21,7 +21,7 @@ if($page == "home") {
 onload = function() {
     var interval = 4000;
     var dir = "images/slideshow/";
-    var img = ["01.png", "02.png", "03.png", "08b.png", "04.png", "05.png", "03b.png", "09b.png", "06.png", "05b.png", "07.png", "08.png", "09.png", "05c.png", "10.png"];
+    var img = ["01.png", "02.png", "03.png", "08b.png", "04.png", "05.png", "03b.png", "09b.png", "06.png", "05b.png", "07.png", "08.png", "09.png", "11.png", "10.png"];
     img = appendValue(dir, img);
     img.current = 0;
     autoSwitch(img, interval);
@@ -53,11 +53,11 @@ GCW Zero
 <div id="navigation">
 <ul>
 <li><a href='/'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
+<!--<li><a href='news'>News</a></li>-->
 <li><a href='specifications'>Specifications</a></li>
 <li><a href='media'>Media</a></li>
 <li><a href='store'>Where To Buy</a></li>
 <li><a href='develop'>Development</a></li>
-<li><a href='about'>About</a></li>
 </ul>
 </div>
 

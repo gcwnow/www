@@ -1,3 +1,5 @@
+/* ----- Default formatting ----- */
+
 @font-face {
     font-family: GCW Zero;
     src: url('../fonts/gcwzero.eot');
@@ -29,17 +31,26 @@ a {
     outline-style: none;
 }
 
-a:link {color: rgb(154, 77, 56);}
-a:visited {color: rgb(154, 77, 56);}
+a:link {
+    color: rgb(154, 77, 56);
+}
+
+a:visited {
+    color: rgb(154, 77, 56);
+}
+
 a:hover {
     color: black;
     text-decoration: underline;
 }
-a:active {color: black;}
+
+a:active {
+    color: black;
+}
 
 h1 {
-    margin: 0;
-    padding: 10px 0px;
+    margin: 15px 0px;
+    padding: 0;
     font-family: Levenim MT, Verdana, Garamond, sans-serif;
     font-size: 1.5em;
 }
@@ -55,16 +66,16 @@ h1 {
 
 h2 {
     clear: both;
-    margin: 0;
-    padding: 10px 0px;
+    margin: 15px 0px;
+    padding: 0;
     font-family: Levenim MT, Verdana, Garamond, sans-serif;
     font-size: 1em;
     color: black;
 }
 
 p {
-    margin: 0;
-    padding: 10px 0px;
+    margin: 10px 0px;
+    padding: 0;
 }
 
 blockquote.block_style {
@@ -79,6 +90,8 @@ blockquote.block_style {
     text-indent: 2em;
     font-style:italic;
 }
+
+/* ----- Header ----- */
 
 #header {
     position: relative;
@@ -139,7 +152,7 @@ blockquote.block_style {
 
 #navigation li a {
     display: block;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 15px 10px 15px;
     margin: 0px;
     border: 0px;
     background: #363636;
@@ -159,6 +172,8 @@ blockquote.block_style {
     color: black;
 }
 
+/* ----- Container ----- */
+
 #container {
     position: relative;
     padding: 0px;
@@ -169,59 +184,22 @@ blockquote.block_style {
     text-align: left;
 }
 
-#carousel {
-    position: relative;
-    width: auto;
-    height: 450px;
-    padding: 0px;
-    margin: 10px 0px;
-    border: 0px solid #a9a9a9;
-    background: url(../images/console_pic_scaled.png) black no-repeat;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-
-#slideshow {
-    position: relative;
-    overflow: hidden;
-    width: auto;
-    height: 409px;
-    padding: 5px 0px;
-    margin: 10px 0px;
-    border: 0px;
-    background: rgb(198, 196, 199);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-
-.slideshow1 {
-    position: relative;
-    padding: 0px;
-    margin: 0px;
-    z-index: 2;
-    border-radius: 5px;
-}
-
-.slideshow1 {
-    position: relative;
-    padding: 0px;
-    margin: 0px;
-    z-index: 1;
-    border-radius: 5px;
-}
+/* ----- Content ----- */
 
 #content {
     position: relative;
     overflow: hidden;
     width: auto;
     height: auto;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 0px;
     border: 0px solid #a9a9a9;
     background: rgb(198, 196, 199); /*rgb(188, 186, 189); rgb(226, 224, 227);#363636;*/
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
+
+/* ----- Banner ----- */
 
 #banner {
     position: relative;
@@ -246,6 +224,7 @@ blockquote.block_style {
     border: 0px;
 }
 
+/* ----- Tiles ----- */
 
 .tile_left {
     position: relative;
@@ -332,9 +311,6 @@ blockquote.block_style {
     -webkit-transition: background .25s ease-in-out;
 }
 
-/*#navigation li a:active,
-#navigation li a:hover,
-#navigation li a:visited,*/
 .tile_box_text a:hover {
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(114, 114, 114) transparent;
@@ -348,61 +324,7 @@ blockquote.block_style {
     color: white;
 }
 
-.gallery_box {
-    position: relative;
-    float: left;
-    padding: 0px;
-    margin: 5px;
-    border-radius: 5px;
-    background: gray;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-
-.gallery_box_image {
-    position: relative;
-    display: block;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-
-.gallery_box_text {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 10px;
-    margin: 0px;
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(54, 54, 54) transparent;
-    /* RGBa with 0.8 opacity */
-    background: rgba(54, 54, 54, 0.8);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
-    border-radius: 0px 0px 5px 5px;
-}
-
-.gallery_box a {
-    display: block;
-    opacity: 1;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    outline-style: none;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-}
-
-.gallery_box a:hover {
-    opacity: 0.8;
-    border-radius: 5px;
-}
+/* ----- Footer ----- */
 
 #footer {
     position: relative;
@@ -442,21 +364,60 @@ blockquote.block_style {
 #footer a:hover {color: black;}
 #footer a:active {color: black;}
 
-.image_frontpage_right {
-    position: relative;
-    float: right;
-    margin: 10px;
+.social_img {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px 5px 0px 0px;
+    vertical-align: middle;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
 }
 
-.image_full {
+/* ----- Slideshow ----- */
+
+#carousel {
     position: relative;
+    width: auto;
+    height: 450px;
+    padding: 0px;
     margin: 10px 0px;
+    border: 0px solid #a9a9a9;
+    background: url(../images/console_pic_scaled.png) black no-repeat;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
-a .image_full {
+#slideshow {
     position: relative;
-    display: block;
+    overflow: hidden;
+    width: auto;
+    height: 409px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: 0px;
+    background: rgb(198, 196, 199);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
+
+.slideshow1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.slideshow1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* ----- Table ----- */
 
 .table {
     position: relative;
@@ -485,6 +446,80 @@ a .image_full {
     border: opx solid #C2C2C2;
 }
 
+/* ----- Gallery ----- */
+
+.gallery {
+    padding: 0px;
+    margin: -5px -5px;
+    border: 0px;
+    overflow: hidden;
+}
+
+.gallery ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery li {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    background: gray;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery li a {
+    display: block;
+    opacity: 1;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.gallery li a:hover {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.gallery img {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery span {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    margin: 0px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(54, 54, 54) transparent;
+    /* RGBa with 0.8 opacity */
+    background: rgba(54, 54, 54, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* ----- Etc ----- */
+
 .text_bold {
     font-weight: bold;
 }
@@ -497,11 +532,12 @@ a .image_full {
     background-color: gray;
 }
 
-.social_img {
-    width: 20px;
-    height: 20px;
-    padding: 0px;
-    margin: 0px 5px 0px 0px;
-    vertical-align: middle;
-    border-radius: 2px;
+.grayscale {
+    filter: url(../images/grayscale.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+
+.grayscale:hover {
+    filter: none;
 }
