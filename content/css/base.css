@@ -126,21 +126,20 @@ blockquote.block_style {
     color: rgb(154, 77, 56);
 }
 
+/* ----- Header: Menu ----- */
+
 #navigation {
     position: absolute;
+    top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
     padding: 0px;
     margin: 0px;
     border: 0px;
-    text-align: center;
-}
-
-#navigation ul {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
+    text-align: left;
+    z-index: 5;
 }
 
 #navigation li {
@@ -150,7 +149,7 @@ blockquote.block_style {
     margin: 0px 0px 0px 0px;
 }
 
-#navigation li a {
+#navigation a {
     display: block;
     padding: 10px 15px 10px 15px;
     margin: 0px;
@@ -164,12 +163,47 @@ blockquote.block_style {
     -webkit-transition: background .25s ease-in-out;
 }
 
-/*#navigation li a:active,
-#navigation li a:hover,
-#navigation li a:visited,*/
-#navigation li a:hover {
+/*#navigation a:active,
+#navigation a:hover,
+#navigation a:visited,*/
+#navigation a:hover {
     background: #727272; /*#a9a9aa;*/
     color: black;
+}
+
+/* ----- Header: Dropdown-menu ----- */
+
+#navigation ul { /* Matches the ul within li, which in turn is part of the #navigation ul. */
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+    /*box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+#navigation ul li { /* Matches the li within ul of the drop down section of the menu. */
+    float: none;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#navigation ul a {
+    white-space: nowrap;
+}
+
+#navigation li:hover ul {
+    display: block;
+}
+
+#navigation li:hover a {
+    background: #727272;
+    color: black;
+}
+
+#navigation > li li:last-child a {
+    border-radius: 0px 0px 5px 5px;
 }
 
 /* ----- Container ----- */
@@ -452,13 +486,8 @@ blockquote.block_style {
     padding: 0px;
     margin: -5px -5px;
     border: 0px;
-    overflow: hidden;
-}
-
-.gallery ul {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
+    overflow: hidden;
 }
 
 .gallery li {
@@ -472,7 +501,7 @@ blockquote.block_style {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.gallery li a {
+.gallery a {
     display: block;
     opacity: 1;
     padding: 0px;
@@ -486,7 +515,7 @@ blockquote.block_style {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
-.gallery li a:hover {
+.gallery a:hover {
     opacity: 0.8;
     border-radius: 5px;
 }
@@ -540,4 +569,9 @@ blockquote.block_style {
 
 .grayscale:hover {
     filter: none;
+}
+
+.image_center {
+    /*margin: 0 auto;*/
+    text-align: center;
 }

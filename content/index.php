@@ -9,7 +9,7 @@ include "includes/header.php";
 </div>
 
 <div id="banner">
-<a href="about.html">
+<a href="about">
 </a>
 </div>
 
@@ -27,7 +27,7 @@ We need your help to fund production. If there is a large user base, it is easie
 <div class="tile_right">
 <div class="tile_box_right">
 <div class="tile_box_text">
-<a href="media.html#games">
+<a href="media#games">
 <h1>Games</h1>
 It is powerful enough to run classic PC games, emulate the game consoles we grew up with and run homebrew games seamlessly at high frame rates. >>
 </a>

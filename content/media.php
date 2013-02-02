@@ -14,7 +14,7 @@ include "includes/header.php";
 
 <h2>Photos</h2>
 
-<div class="gallery"><ul>
+<ul class="gallery">
 
 <li>
 <a href="images/photos/front.png">
@@ -37,13 +37,13 @@ include "includes/header.php";
 </a>
 </li>
 
-</ul></div>
+</ul>
 
 <h2>Applications</h2>
 
 <!-- gmenu2x, UMG, Freedoom, SameGoo, Liero, Puzzletube, Heroes, Worship Vector, Sqrxz3, Blockrage -->
 
-<div class="gallery"><ul>
+<ul class="gallery">
 
 <li>
 <a href="images/screenshots/sc1.png">
@@ -82,11 +82,11 @@ include "includes/header.php";
 </a>
 </li>
 
-</ul></div>
+</ul>
 
 <h2><a name="games"></a>Selected Games</h2>
 
-<div class="gallery"><ul>
+<ul class="gallery">
 
 <li>
 <a href="images/screenshots/sc2.png">
@@ -145,8 +145,8 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="images/screenshots/sc14.png">
-<img src="images/screenshots/thumb_sc14.png">
+<a href="images/screenshots/sc15.png">
+<img src="images/screenshots/thumb_sc15.png">
 <span>Liero</span>
 </a>
 </li>
@@ -193,7 +193,14 @@ include "includes/header.php";
 </a>
 </li>
 
-</ul></div>
+<li>
+<a href="images/screenshots/sc27.png">
+<img src="images/screenshots/thumb_sc27.png">
+<span>Powder</span>
+</a>
+</li>
+
+</ul>
 
 </div>
 
