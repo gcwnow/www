@@ -7,7 +7,7 @@ include "includes/header.php";
 
 <h1>Where To Buy</h1>
 
-<p>With $238,498 pledged of the intial goal of $130,000 the <a href="http://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld">Kickstarter campaign</a> has been a great success!</p>
+<p>With $238,498 pledged of the initial goal of $130,000 the <a href="http://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld">Kickstarter campaign</a> has been a great success!</p>
 
 <p class="image_center"><a href="http://www.kicktraq.com/projects/gcw/gcw-zero-open-source-gaming-handheld/" target="_blank"><img class="minichart" src="http://www.kicktraq.com/projects/gcw/gcw-zero-open-source-gaming-handheld/minichart.png" alt="GCW-Zero: Open Source Gaming Handheld -- Kicktraq Mini" title="GCW-Zero: Open Source Gaming Handheld -- Kicktraq Mini"></a></p>
 

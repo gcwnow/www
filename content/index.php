@@ -27,7 +27,7 @@ include "includes/header.php";
 <div class="tile_box_text">
 <a target="_blank" href="http://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld">
 <h1>Kickstarter Funded!</h1>
-With $238,498 pledged of the intial goal of $130,000 the Kickstarter campaign has been a great success! Thank you for supporting us! >>
+With $238,498 pledged of the initial goal of $130,000 the Kickstarter campaign has been a great success! Thank you for supporting us! >>
 </a>
 </div>
 </div>
