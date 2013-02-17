@@ -21,7 +21,7 @@ if($page == "home") {
 onload = function() {
     interval = 4000;
     dir = "images/slideshow/";
-    img = ["01.png", "02.png", "12.png", "08b.png", "04.png", "05.png", "03b.png", "09b.png", "06.png", "05b.png", "07.png", "08.png", "09.png", "11.png", "10.png"];
+    img = ["02.png", "12.png", "08b.png", "04.png", "05.png", "03b.png", "09b.png", "06.png", "05b.png", "07.png", "08.png", "09.png", "11.png", "10.png"];
     img = appendValue(dir, img);
     img.current = 0;
     preload(img);
