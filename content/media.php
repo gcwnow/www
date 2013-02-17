@@ -89,13 +89,6 @@ include "includes/header.php";
 <ul class="gallery">
 
 <li>
-<a href="images/screenshots/sc2.png">
-<img src="images/screenshots/thumb_sc2.png">
-<span>Worship Vector</span>
-</a>
-</li>
-
-<li>
 <a href="images/screenshots/sc3.png">
 <img src="images/screenshots/thumb_sc3.png">
 <span>Worship Vector</span>
@@ -131,22 +124,8 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="images/screenshots/sc12.png">
-<img src="images/screenshots/thumb_sc12.png">
-<span>Freedoom</span>
-</a>
-</li>
-
-<li>
 <a href="images/screenshots/sc13.png">
 <img src="images/screenshots/thumb_sc13.png">
-<span>Liero</span>
-</a>
-</li>
-
-<li>
-<a href="images/screenshots/sc15.png">
-<img src="images/screenshots/thumb_sc15.png">
 <span>Liero</span>
 </a>
 </li>
@@ -155,13 +134,6 @@ include "includes/header.php";
 <a href="images/screenshots/sc26.png">
 <img src="images/screenshots/thumb_sc26.png">
 <span>Biniax-2</span>
-</a>
-</li>
-
-<li>
-<a href="images/screenshots/sc16.png">
-<img src="images/screenshots/thumb_sc16.png">
-<span>Sqrxz3</span>
 </a>
 </li>
 

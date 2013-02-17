@@ -136,6 +136,7 @@ blockquote.block_style {
     bottom: 0px;
     padding: 0px;
     margin: 0px;
+    background: #363636;
     border: 0px;
     list-style: none;
     text-align: left;
@@ -151,9 +152,12 @@ blockquote.block_style {
 
 #navigation a {
     display: block;
-    padding: 10px 15px 10px 15px;
-    margin: 0px;
+    /*padding: 10px 15px 10px 15px;
+    margin: 0px;*/
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px;
     border: 0px;
+    border-radius: 5px;
     background: #363636;
     color: gray;
     text-decoration: none;
@@ -167,20 +171,27 @@ blockquote.block_style {
 #navigation a:hover,
 #navigation a:visited,*/
 #navigation a:hover {
-    background: #727272; /*#a9a9aa;*/
+    background: gray; /*#727272; #a9a9aa;*/
     color: black;
 }
 
 /* ----- Header: Dropdown-menu ----- */
 
 #navigation ul { /* Matches the ul within li, which in turn is part of the #navigation ul. */
-    display: none;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     list-style: none;
     padding: 0px;
-    margin: 0px;
-    border-radius: 0px 0px 5px 5px;
-    /*box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);*/
+    margin: 0px 0px 0px 0px;
+    background: #363636;
+    /*border-radius: 0px 0px 5px 5px;*/
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
+    -moz-transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
+    -webkit-transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
 }
 
 #navigation ul li { /* Matches the li within ul of the drop down section of the menu. */
@@ -194,17 +205,37 @@ blockquote.block_style {
 }
 
 #navigation li:hover ul {
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
+/* Apply hover effect only on submenu. */
+/*#navigation > li li:hover a {
+    background: gray;
+    color: black;
+}*/
+
+/* Apply hover effect on all a within hovered li. */
 #navigation li:hover a {
-    background: #727272;
+    background: gray; /*#727272;*/
     color: black;
 }
 
-#navigation > li li:last-child a {
-    border-radius: 0px 0px 5px 5px;
+/* Reset hover effect for all submenu a. */
+#navigation li:hover ul a {
+    background: #363636;
+    color: gray;
 }
+
+/* Apply separate hover effect for all submenu a. */
+#navigation li:hover ul a:hover {
+    background: gray;
+    color: black;
+}
+
+/*#navigation > li li:last-child a {
+    border-radius: 0px 0px 5px 5px;
+}*/
 
 /* ----- Container ----- */
 
@@ -399,27 +430,56 @@ blockquote.block_style {
 #footer a:active {color: black;}
 
 .social_img {
+    opacity: 0.5;
     width: 20px;
     height: 20px;
     padding: 0px;
-    margin: 0px 5px 0px 0px;
+    margin: 0px;
     vertical-align: middle;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social_img:hover {
+    opacity: 1;
+}
+
+a.social {
+    margin-right: 5px;
 }
 
 /* ----- Slideshow ----- */
+
+#carousel_container {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 10px 0px;
+    border: 0px solid #a9a9a9;
+    background: black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
 
 #carousel {
     position: relative;
     width: auto;
     height: 450px;
     padding: 0px;
-    margin: 10px 0px;
-    border: 0px solid #a9a9a9;
-    background: url(../images/console_pic_scaled.png) black no-repeat;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    background: black;
     border-radius: 5px;
+}
+#carousel.black {
+    background: url(../images/x_console_pic_scaled_black.png) black no-repeat;
+}
+
+#carousel.white {
+    background: url(../images/x_console_pic_scaled_white.png) black no-repeat;
 }
 
 #slideshow {
@@ -443,12 +503,142 @@ blockquote.block_style {
     border-radius: 5px;
 }
 
-.slideshow1 {
+.slideshow2 {
     position: relative;
     padding: 0px;
     margin: 0px;
     z-index: 1;
     border-radius: 5px;
+    opacity: 0;
+}
+
+#slideshow_overlay_container_bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#slideshow_overlay_container {
+    position: relative;
+    float: right;
+    right: 50%;
+    padding: 0px;
+    margin: 0px auto;
+    border: 0px;
+}
+
+#slideshow_overlay {
+    position: relative;
+    float: left;
+    right: -50%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    list-style: none;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#slideshow_overlay li {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px 10px 0px 0px;
+    margin: 23px 5px;
+    border: 0px solid #363636; 
+    border-radius: 10px;
+    background: #363636;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) inset;
+    z-index: 3;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/*#slideshow_overlay li:hover {
+    background: grey;
+}*/
+
+/* Needed more specific rule to override the previous li css properties. */
+#slideshow_overlay .active_list {
+    background: grey;
+}
+
+.pause, .play {
+    position: relative;
+    display: block;
+    right: -50%;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 23px 5px;
+    text-decoration: none;
+    outline-style: none;
+    z-index: 3;
+}
+
+.play div {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #363636;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) inset;
+    transition: border-left .25s ease-in-out;
+    -moz-transition: border-left .25s ease-in-out;
+    -webkit-transition: border-left .25s ease-in-out;
+}
+
+.play:hover div {
+    border-left: 10px solid gray;
+}
+
+.pause div {
+    float: left;
+    width: 3px;
+    height: 10px;
+    margin: 0px 1px;
+    background: #363636;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) inset;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+.pause:hover div {
+    background: gray;
+}
+
+.controls {
+    position: relative;
+    display: block;
+    right: -50%;
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    margin: 18px 5px;
+    font-size: 15px;
+    text-decoration: none;
+    outline-style: none;
+    text-align: center;
+    font-weight: bold;
+    /*line-height: 1em;*/
+    z-index: 3;
+}
+
+.controls span{
+    vertical-align: middle;
+    color: #363636;
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+}
+
+.controls:hover span{
+    color: gray;
 }
 
 /* ----- Table ----- */
@@ -547,6 +737,35 @@ blockquote.block_style {
     border-radius: 0px 0px 5px 5px;
 }
 
+/* ----- FAQ ----- */
+
+.faq_question {
+    margin-bottom: 10px;
+    color: rgb(154, 77, 56);
+    cursor: hand;
+    cursor: pointer;
+}
+
+.faq_question:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.faq_question:active {
+    color: black;
+}
+
+.faq_answer {
+    display: none;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#faq li {
+    margin: 10px 0px;
+}
+
 /* ----- Etc ----- */
 
 .text_bold {
@@ -574,4 +793,10 @@ blockquote.block_style {
 .image_center {
     /*margin: 0 auto;*/
     text-align: center;
+}
+
+.minichart {
+    width: 600px;
+    height: 270px;
+
 }
