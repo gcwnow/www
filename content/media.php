@@ -46,8 +46,8 @@ include "includes/header.php";
 <ul class="gallery">
 
 <li>
-<a href="images/screenshots/sc1.png">
-<img src="images/screenshots/thumb_sc1.png">
+<a href="images/screenshots/sc33.png">
+<img src="images/screenshots/thumb_sc33.png">
 <span>gmenu2x</span>
 </a>
 </li>
