@@ -128,6 +128,7 @@ function slideshowOverlay() {
     }
     overlay.innerHTML = overlayContent;
     $('#slideshow_overlay li').eq(0).addClass('active_list');
+    preload(["../images/x_console_pic_scaled_white.png"]);
    
     /* Bind onclick to li bullets to switch to the specified image. */
     $('#slideshow_overlay li').on('click', function() {
