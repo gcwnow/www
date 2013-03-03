@@ -1,7 +1,8 @@
 <?php
 $page = "press";
 include "includes/header.php";
-?>
+?>
+
 <div id="content">
 
 <h1>Frequently Asked Questions</h1>
@@ -45,7 +46,7 @@ battery life.</div></li>
 <li><div class="faq_question">How many GCW Zeros can connect over the wifi?</div><div class="faq_answer">There is no real theoretical limit (think of a couple of hundred units). The hardware however, has a bandwidth limitation which will result in lag and disconnects when too many units are connected to a GCW Zero hosting a multiplayer game.</div></li>
 <li><div class="faq_question">How easy is it to change the controls for games?</div><div class="faq_answer">Controls are currently changed via settings files or via in game/application menus depending on the game/application.</div></li>
 <li><div class="faq_question">How much will the customs or handling fees be when it arrives at my country?</div><div class="faq_answer">Any customs or handling fees are the responsibility of the backer/buyer when the items enter destination country.  Items will leave the US through the US Postal Service to avoid costly brokerage fees associated with other carriers.</div></li>
-<li><div class="faq_question">Can the GCW's battery be charged via USB? Or will there be a power adapter supplied? If so: Will it also work in Europe?</div><div class="faq_answer">The unit can be charged via PC or with the help of USB wall adapter but it will take a considerable amount of time to charge the device. A power adapter specific for your country/region will be included with the console.</div></li>
+<li><div class="faq_question">Can the GCW's battery be charged via USB? Or will there be a power adapter supplied? If so, will it also work in Europe?</div><div class="faq_answer">The unit can be charged via PC or with the help of USB wall adapter but it will take a considerable amount of time to charge the device. A power adapter specific for your country/region will be included with the console.</div></li>
 <li><div class="faq_question">Does the USB port have USB host capabilities/driver?</div><div class="faq_answer">Currently we are working on implementing USB OTG: the hardware supports it and support for it will be added in a future OS update.</div></li>
 <li><div class="faq_question">Could we use a Bluetooth USB dongle with the Zero for pairing with a game controller? </div><div class="faq_answer">Yes, this is possible when we add BT support to the OS in a future update.</div></li>
 </ul>

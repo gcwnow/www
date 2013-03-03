@@ -2,7 +2,6 @@
 var interval; // interval in ms.
 var intervalID;
 var autoPlay;
-var dir;
 var img;
 
 /* Append value to elements from an array. */
@@ -10,7 +9,7 @@ function appendValue(value, array) {
     for(var i = 0; i < array.length; i++) {
         array[i] = value + array[i];
     }
-  	return array;
+    return array;
 }
 
 /* Preload (cache) images. */
@@ -74,7 +73,7 @@ function previousImage() {
 
 /* Go to the next image in the img array. */
 function nextImageSimple() {
-    img.current = (img.current+1) % img.length; // Image number should be in array range.
+    img.current = (img.current + 1) % img.length; // Image number should be in array range.
     switchImage();
 }
 
@@ -182,7 +181,7 @@ function slideshowOverlay() {
                 $(this).removeClass('white');
                 $(this).addClass('black');
                 $(this).animate({opacity: 1}, 800);
-            });           
+            });
         }
     });
 }
@@ -191,10 +190,21 @@ function loadBaseEvents() {
     // FAQ expanding answers onclick event.
     $('body').on('click', '.faq_question', function() {
         var answer = $(this).parent().children('.faq_answer');
-        if(answer.css('display') == 'none') {
-            answer.show('fast');
+        if (answer.css('display') == 'none') {
+            answer.animate({
+                height: "toggle",
+                opacity: "toggle"
+            }, "fast");
         } else {
-            answer.hide('fast');
+            answer.animate({
+                height: "toggle",
+                opacity: "toggle"
+            }, "fast");
         }
+    });
+    
+    // Change specifications slideshow image on mouse click
+    $('#slideshow').on('click', function() {
+        nextImage();
     });
 }
