@@ -120,6 +120,7 @@ function autoSwitch() {
 
 /* Generate list of bullets with click events and other controls. */
 function slideshowOverlay() {
+    /* Generate bullets and make the first bullet active. */
     var overlay = document.getElementById('slideshow_overlay');
     var overlayContent = "";
     for(var i = 0; i < img.length; i++) {
@@ -127,6 +128,8 @@ function slideshowOverlay() {
     }
     overlay.innerHTML = overlayContent;
     $('#slideshow_overlay li').eq(0).addClass('active_list');
+    
+    /* Preload white GCW Zero image. */
     preload(["../images/x_console_pic_scaled_white.png"]);
    
     /* Bind onclick to li bullets to switch to the specified image. */

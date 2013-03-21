@@ -42,7 +42,6 @@ onload = function() {
     loadBaseEvents();
     preload(img);
     autoSwitch(interval);
-    slideshowOverlay();
 }
 </script>
 ';
@@ -82,6 +81,7 @@ GCW Zero
 <ul>
 <li><a href='faq'>FAQ</a></li>
 <li><a target="_blank" href='http://boards.dingoonity.org/index.php#c10'>Dingoonity Forums</a></li>
+<li><a href='irc'>IRC Chatroom</a></li>
 <!--<li><a href='support'>Sales Support</a></li>-->
 </ul>
 </li>
