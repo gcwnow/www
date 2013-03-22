@@ -9,11 +9,11 @@ include "includes/header.php";
 
 <h2>Webchat</h2>
 
-<p>Click <a target="_blank" href="http://webchat.freenode.net?channels=gcw&uio=d4">here</a> to start chatting in our IRC chatroom via webchat.</p>
+<p>Join our IRC chatroom via <a target="_blank" href="http://webchat.freenode.net?channels=gcw&uio=d4">webchat</a> in your browser.</p>
 
 <h2>IRC Clients</h2>
 
-<p>You can connect to our channel on Freenode, using an IRC client on your computer, by clicking <a href="irc://chat.freenode.net:8001/gcw">here</a> or by entering the following information manually in your IRC client of choice:</p>
+<p>Alternatively, you can <a href="irc://chat.freenode.net:8001/gcw">connect</a> to our channel on Freenode by entering the following information in your IRC client of choice:</p>
 
 <div class="table">
 <div class="table-row"><div class="row0 text_bold">Server</div><div class="row0">chat.freenode.net</div></div>
@@ -21,7 +21,7 @@ include "includes/header.php";
 <div class="table-row"><div class="row0 text_bold">Channel</div><div class="row0">#gcw</div></div>
 </div>
 
-<p>More information about Freenode can be found <a target="_blank" href="http://freenode.net/irc_servers.shtml">here</a>.</p>
+<p>More information about the Freenode network can be found on <a target="_blank" href="http://freenode.net/irc_servers.shtml">Freenode</a>.</p>
 
 </div>
 
