@@ -7,6 +7,12 @@ include "includes/header.php";
 
 <h1>IRC Chatroom</h1>
 
+<h2>Webchat</h2>
+
+<p>Click <a target="_blank" href="http://webchat.freenode.net?channels=gcw&uio=d4">here</a> to start chatting in our IRC chatroom via webchat.</p>
+
+<h2>IRC Clients</h2>
+
 <p>You can connect to our channel on Freenode, using an IRC client on your computer, by clicking <a href="irc://chat.freenode.net:8001/gcw">here</a> or by entering the following information manually in your IRC client of choice:</p>
 
 <div class="table">
