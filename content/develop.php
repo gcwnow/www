@@ -13,6 +13,8 @@ include "includes/header.php";
 # TODO: Automatically list the alphabetically largest file name that matches
 #       "files/gcw0-toolchain.*.tar.bz2".
 ?>
+<p><a href="files/opendingux-gcw0-toolchain.2013-07-06.tar.bz2">GCW Zero Toolchain</a> 2013-07-06, for x86 Linux</a><br>
+Changes: updated GCC to 4.8.1, added Boost, DevIL, FluidSynth, libcmenu and libini.</p>
 <p><a href="files/opendingux-gcw0-toolchain.2013-02-05.tar.bz2">GCW Zero Toolchain</a> 2013-02-05, for x86 Linux</a><br>
 Changes: added libmodplug and enabled XPM support in SDL_image.</p>
 <p><a href="files/opendingux-gcw0-toolchain.2013-01-25.tar.bz2">GCW Zero Toolchain</a> 2013-01-25, for x86 Linux</a><br>
