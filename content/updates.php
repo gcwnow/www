@@ -53,6 +53,8 @@ When you press <span style="font-variant: small-caps;">start</span> again, the s
 The compile date for the kernel and rootfs should be equal to or very close to the date of the updater application.
 </p>
 
+</div>
+
 <?php
 include "includes/footer.php";
 ?>
