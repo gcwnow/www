@@ -11,9 +11,11 @@ include "includes/header.php";
 <p>Download: <a href="files/gcw0-update-2013-07-06.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
+<li>improved video performance (enabled framebuffer caching)</li>
+<li>made vsync more robust (eliminated glitches on page flipping)</li>
 <li>made the FTP server list hidden files (names starting with a dot)</li>
 <li>improved Unicode support in both gmenu2x and command line tools</li>
-<li>fixed bug in pwswd that made it power off the system if the power slider was raised, released, then raised again soon after</li>
+<li>fixed bug that powered off the system if the power slider was raised, released, then raised again soon after</li>
 <li>list IP addresses in System Info application</li>
 <li>added unrar command line tool</li>
 <li>added shared memory support (allows more applications to be ported)</li>
