@@ -1,5 +1,5 @@
 <?php
-$page = "press";
+$page = "faq";
 include "includes/header.php";
 ?>
 
