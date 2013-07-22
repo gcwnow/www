@@ -7,6 +7,22 @@ include "includes/header.php";
 
 <h1>Firmware Updates</h1>
 
+<p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
+
+<h2>2013-07-22</h2>
+<p>Download: <a href="files/gcw0-update-2013-07-22.opk">OpenDingux Update for GCW Zero</a></p>
+<p>Changes:</p>
+<ul>
+<li>fixed problem where a headphone wouldn't activate if plugged in when an application was already running</li>
+<li>completely turn off sound at minimum volume setting</li>
+<li>reduced pops when starting and stopping audio</li>
+<li>improved file type detection, in particular for data files used by emulators</li>
+<li>fixed problem where powering off the device by holding the power slider for 3 seconds didn't work in some situations</li>
+<li>gmenu2x will pick up new OPK files (uploaded through FTP, for example) without restarting</li>
+<li>the file selector in gmenu2x will accept all files by default</li>
+<li>added clock to bottom bar in gmenu2x</li>
+</ul>
+
 <h2>2013-07-06</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-06.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
