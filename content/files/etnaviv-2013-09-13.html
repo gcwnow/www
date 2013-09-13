@@ -120,6 +120,8 @@
 <li>gl_FrontFacing not yet supported</li>
 <li>GLSL "texture" bias parameter not yet supported</li>
 <li>GLSL "textureLod" not yet supported</li>
+<li>reading from framebuffer (when supertiled) not yet supported</li>
+<li>extension "GL_OES_texture_3D" is erroneously reported (but with max texture size 0); the hardware has no support for 3D textures</li>
 </ul>
 
 <h2>Development</h2>
@@ -133,16 +135,36 @@
 <h3>Performance Tips</h3>
 
 <ul>
-<li>use vertex buffer objects (VBOs)</li>
-<li>put vertices into one interleaved VBO</li>
+<li>always use vertex buffer objects (VBOs)</li>
+<li>put vertices into one interleaved VBO, not multiple VBOs</li>
 <li>use compressed textures (DXTx or ETC) where possible</li>
+<li>when drawing with glDrawElements use the smallest possible index size</li>
 </ul>
 
 <h3>Debug Tips</h3>
 
 <p>The <a href="https://github.com/apitrace/apitrace/blob/master/README.markdown">apitrace</a> tool is included in the rootfs. It can capture GL ES calls made by an application for later replay and inspection.
 </p>
-<p>If you encounter a bug that you think is caused by Etnaviv rather than your application, please try to narrow down the issue as far as you can. If it still looks like an Etnaviv bug, you can then report it in the <a href="https://github.com/laanwj/etna_viv/issues">Etnaviv issue tracker</a>, preferably with a minimal test case or an apitrace log included.</p>
+
+<h3>Bug Reports</h3>
+
+<p>Although most of the critical problems should have been solved by now, some
+unknown rendering bugs and crashes may still be present.</p>
+
+<p>Report issues and rendering problems in the <a href="https://github.com/laanwj/etna_viv/issues">Etnaviv issue tracker</a>.</p>
+
+<p>When reporting an issue provide as much information as possible about the GLES
+and GLSL functions and extensions used and other information that may be useful
+for narrowing down the problem.</p>
+
+<p>If possible, attach an apitrace dump that shows the problem (run <code>apitrace trace -a egl <i>executable</i></code> on the device and send the resulting <code>.trace</code> file). These can be replayed on various devices to find out when divergences occur.</p>
+
+<h3>Contributing</h3>
+
+<p>The latest source code can be found at on github: <a href="https://github.com/laanwj/etna_viv">Etnaviv</a> and
+<a href="https://github.com/laanwj/mesa">Mesa</a>.</p>
+
+<p>Help with development is very welcome. Join #etnaviv on irc.freenode.net via <a href="irc://irc.freenode.net/%23etnaviv">IRC</a> or <a href="http://webchat.freenode.net/?channels=etnaviv">web chat</a>) to contact the developers.</p>
 
 </body>
 </html>
