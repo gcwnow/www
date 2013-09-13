@@ -14,7 +14,7 @@ include "includes/header.php";
 <p>Changes:</p>
 <ul>
 <li>added OpenGL ES 1 and 2 support; this is based on Etnaviv and Mesa, so fully open source; read <a href="files/etnaviv-2013-09-13.html">details here</a></li>
-<li>added network configuration utility under the "settings" tab in gmenu2x; you can choose between setting a random password (recommended) or passwordless login</li>
+<li>added network configuration utility under the "settings" tab in gmenu2x; you can choose between setting a random password (recommended) or passwordless login; login name is "root"</li>
 <li>fixed problem where the analog joystick (nub) sometimes wouldn't work</li>
 <li>added file type detection for DOS <code>.bat</code> and <code>.com</code> files</li>
 <li>show black screen when switching video mode, instead of leftover graphics data</li>
