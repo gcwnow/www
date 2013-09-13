@@ -13,6 +13,8 @@ include "includes/header.php";
 # TODO: Automatically list the alphabetically largest file name that matches
 #       "files/gcw0-toolchain.*.tar.bz2".
 ?>
+<p><a href="files/opendingux-gcw0-toolchain.2013-09-13.tar.bz2">GCW Zero Toolchain</a> 2013-09-13, for x86 Linux</a><br>
+Changes: compile for MIPS32R2 by default, added <a href="files/etnaviv-2013-09-13.html">OpenGL ES</a>.</p>
 <p><a href="files/opendingux-gcw0-toolchain.2013-07-06.tar.bz2">GCW Zero Toolchain</a> 2013-07-06, for x86 Linux</a><br>
 Changes: updated GCC to 4.8.1, added Boost, FluidSynth and libini.</p>
 <p><a href="files/opendingux-gcw0-toolchain.2013-02-05.tar.bz2">GCW Zero Toolchain</a> 2013-02-05, for x86 Linux</a><br>
