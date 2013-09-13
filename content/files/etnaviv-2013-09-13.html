@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Etnaviv Notes for OpenDingux 2013-09-13</title>
+</head>
+<body>
+
+<h1>Etnaviv Notes for OpenDingux 2013-09-13</h1>
+
+<p>This is the first release of OpenDingux for the GCW Zero that includes Etnaviv. The <a href="https://github.com/laanwj/etna_viv/">Etnaviv project</a> was first published around the start of the year 2013. It has made very good progress since then and now the time has come when we think it is ready to be included in OpenDingux.</p>
+<p>What "ready" means is that there is enough functionality to run several games without game breaking glitches. There are sure to be many bugs and missing features, since this is a young and complex project. But we feel now is the right time to put it into the hands of all developers.</p>
+
+<h2>The Graphics Stack</h2>
+
+<p>The graphics stack contains the following components: (from high to low level)</p>
+<ul>
+<li>Application, such as a game or emulator</li>
+<li>Mesa: OpenGL ES implementation</li>
+<li>Gallium: user space driver, generic part</li>
+<li>Etnaviv: user space driver, hardware specific part</li>
+<li>Galcore: kernel driver by Vivante</li>
+</ul>
+
+<h2>Etnaviv Overview</h2>
+
+<h3>Features</h3>
+<ul>
+<li>APIs: OpenGL ES 1 and OpenGL ES 2</li>
+<li>textures: 2D, cube maps</li>
+<li>texture compression: DXT1-5, ETC</li>
+<li>anti-aliasing: 1x, 2x or 4x MSAA</li>
+<li>vertex texture fetch</li>
+<li>16 or 24 bit depth buffer</li>
+<li>0 bit or 8 bit stencil buffer</li>
+<li>8, 16 or 32 bit (OES_element_index_uint) indices for glDrawElements</li>
+</ul>
+
+<h3>GLES 1 extensions</h3>
+<ul>
+<li>GL_EXT_blend_minmax</li>
+<li>GL_EXT_multi_draw_arrays</li>
+<li>GL_EXT_texture_filter_anisotropic</li>
+<li>GL_EXT_texture_lod_bias</li>
+<li>GL_OES_byte_coordinates</li>
+<li>GL_OES_fixed_point</li>
+<li>GL_OES_stencil_wrap</li>
+<li>GL_OES_compressed_paletted_texture</li>
+<li>GL_OES_query_matrix</li>
+<li>GL_OES_read_format</li>
+<li>GL_OES_single_precision</li>
+<li>GL_OES_draw_texture</li>
+<li>GL_OES_matrix_get</li>
+<li>GL_OES_point_size_array</li>
+<li>GL_OES_point_sprite
+<li>GL_EXT_texture_format_BGRA8888</li>
+<li>GL_OES_compressed_ETC1_RGB8_texture</li>
+<li>GL_OES_depth24</li>
+<li>GL_OES_element_index_uint</li>
+<li>GL_OES_fbo_render_mipmap</li>
+<li>GL_OES_framebuffer_object</li>
+<li>GL_OES_mapbuffer</li>
+<li>GL_OES_rgb8_rgba8</li>
+<li>GL_OES_stencil8</li>
+<li>GL_OES_texture_env_crossbar</li>
+<li>GL_OES_texture_mirrored_repeat</li>
+<li>GL_OES_texture_npot</li>
+<li>GL_OES_EGL_image</li>
+<li>GL_OES_packed_depth_stencil</li>
+<li>GL_OES_texture_cube_map</li>
+<li>GL_APPLE_texture_max_level</li>
+<li>GL_EXT_discard_framebuffer</li>
+<li>GL_EXT_read_format_bgra</li>
+<li>GL_OES_blend_equation_separate</li>
+<li>GL_OES_blend_func_separate</li>
+<li>GL_OES_blend_subtract</li>
+<li>GL_OES_EGL_image_external</li>
+<li>GL_OES_vertex_array_object</li>
+<li>GL_EXT_map_buffer_range</li>
+<li>GL_OES_surfaceless_context</li>
+</ul>
+
+<h3>GLES 2 extensions</h3>
+<ul>
+<li>GL_EXT_blend_minmax</li>
+<li>GL_EXT_multi_draw_arrays</li>
+<li>GL_EXT_texture_filter_anisotropic</li>
+<li>GL_EXT_texture_format_BGRA8888</li>
+<li>GL_OES_compressed_ETC1_RGB8_texture</li>
+<li>GL_OES_depth24</li>
+<li>GL_OES_element_index_uint</li>
+<li>GL_OES_fbo_render_mipmap</li>
+<li>GL_OES_mapbuffer</li>
+<li>GL_OES_rgb8_rgba8</li>
+<li>GL_OES_standard_derivatives</li>
+<li>GL_OES_stencil8</li>
+<li>GL_OES_texture_npot</li>
+<li>GL_OES_EGL_image</li>
+<li>GL_OES_depth_texture</li>
+<li>GL_OES_packed_depth_stencil</li>
+<li>GL_EXT_texture_type_2_10_10_10_REV</li>
+<li>GL_OES_get_program_binary</li>
+<li>GL_APPLE_texture_max_level</li>
+<li>GL_EXT_discard_framebuffer</li>
+<li>GL_EXT_read_format_bgra</li>
+<li>GL_NV_fbo_color_attachments</li>
+<li>GL_OES_EGL_image_external</li>
+<li>GL_OES_vertex_array_object</li>
+<li>GL_EXT_unpack_subimage</li>
+<li>GL_NV_draw_buffers</li>
+<li>GL_NV_read_buffer</li>
+<li>GL_EXT_map_buffer_range</li>
+<li>GL_OES_surfaceless_context</li>
+</ul>
+
+<h3>Known Bugs and Issues</h3>
+
+<ul>
+<li>loops in shaders are not supported</li>
+<li>indirect access to uniforms not yet supported</li>
+<li>GLSL "discard" not yet supported</li>
+<li>gl_FrontFacing not yet supported</li>
+<li>GLSL "texture" bias parameter not yet supported</li>
+<li>GLSL "textureLod" not yet supported</li>
+</ul>
+
+<h2>Development</h2>
+
+<p>All required headers and libs are included in the 2013-09-13 release of the <a href="/develop">OpenDingux toolchain</a> for the GCW Zero; older releases won't work.</p>
+
+<p>Use EGL to set up a context for OpenGL ES. We're looking at adding SDL2 as an alternative, but EGL is the only option in this release. Add <code>-DMESA_EGL_NO_X11_HEADERS</code> to your compile flags, so Mesa's EGL headers won't try to include X11 functionality which OpenDingux doesn't have.</p>
+
+<p>Example code can be found in <a href="https://github.com/laanwj/mesatest_gles">this project</a>.</p>
+
+<h3>Performance Tips</h3>
+
+<ul>
+<li>use vertex buffer objects (VBOs)</li>
+<li>put vertices into one interleaved VBO</li>
+<li>use compressed textures (DXTx or ETC) where possible</li>
+</ul>
+
+<h3>Debug Tips</h3>
+
+<p>The <a href="https://github.com/apitrace/apitrace/blob/master/README.markdown">apitrace</a> tool is included in the rootfs. It can capture GL ES calls made by an application for later replay and inspection.
+</p>
+<p>If you encounter a bug that you think is caused by Etnaviv rather than your application, please try to narrow down the issue as far as you can. If it still looks like an Etnaviv bug, you can then report it in the <a href="https://github.com/laanwj/etna_viv/issues">Etnaviv issue tracker</a>, preferably with a minimal test case or an apitrace log included.</p>
+
+</body>
+</html>

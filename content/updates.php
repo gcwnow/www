@@ -9,6 +9,24 @@ include "includes/header.php";
 
 <p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
 
+<h2>2013-09-13</h2>
+<p>Download: <a href="files/gcw0-update-2013-09-13.opk">OpenDingux Update for GCW Zero</a></p>
+<p>Changes:</p>
+<ul>
+<li>added OpenGL ES 1 and 2 support; this is based on Etnaviv and Mesa, so fully open source; read <a href="files/etnaviv-2013-09-13.html">details here</a></li>
+<li>added network configuration utility under the "settings" tab in gmenu2x; you can choose between setting a random password (recommended) or passwordless login</li>
+<li>fixed problem where the analog joystick (nub) sometimes wouldn't work</li>
+<li>added file type detection for DOS <code>.bat</code> and <code>.com</code> files</li>
+<li>show black screen when switching video mode, instead of leftover graphics data</li>
+<li>screenshots (power + Y) work now for all applications (16 bpp was broken before)</li>
+<li>mouse emulation (power + B) works again</li>
+<li>gmenu2x can now be controlled by joystick</li>
+<li>several graphical cleanups in gmenu2x, also added an animation on tab switching</li>
+<li>gmenu2x now shows large SD card capacities in gigabytes instead of megabytes</li>
+<li>reduced key repeat rate in gmenu2x</li>
+<li>fixes in the gmenu2x file selector</li>
+</ul>
+
 <h2>2013-07-22</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-22.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
