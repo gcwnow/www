@@ -17,7 +17,7 @@ if(isset($_GET['id'])) {
 
 } else {
     echo '<h1>News</h1>
-2013-09-13 - <a href="news.php?id=1">Etnaviv Milestone</a>';
+2013-09-13 - <a href="news?id=1">Etnaviv Milestone</a>';
 }
 
 ?>

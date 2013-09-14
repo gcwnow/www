@@ -66,8 +66,9 @@ GCW Zero
 <li><a href='/'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
 <!--<li><a href='news'>News</a></li>-->
 <li><a href='specifications'>Specifications</a></li>
+<li><a href='news'>News</a></li>
 <li><a href='media'>Media</a></li>
-<li><a href='store'>Where To Buy</a></li>
+<li><a href='store'>Buy</a></li>
 <li>
 <!--<a href='#'>Development &#x25BE;</a>
 <ul>
