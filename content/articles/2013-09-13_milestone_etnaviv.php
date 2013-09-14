@@ -13,17 +13,17 @@ Date: 2013-09-13
 
 <p>Below you will find a preview of the current stage of etna_viv driver on GCW Zero:</p>
 
-<object width="640" height="390">
+<object width="650" height="400" class="center_container">
   <param name="movie"
          value="https://www.youtube.com/v/kkpowIf5edU"></param>
   <param name="allowScriptAccess" value="always"></param>
   <embed src="https://www.youtube.com/v/kkpowIf5edU"
          type="application/x-shockwave-flash"
          allowscriptaccess="always"
-         width="640" height="390"></embed>
+         width="650" height="400"></embed>
 </object>
 
-<ul class="gallery">
+<ul class="gallery" style="margin: -5px auto; width: 660px;">
 <li><img src="http://www.wstaw.org/m/2013/09/14/quake1.jpg"></li>
 <li><img src="http://wstaw.org/m/2013/09/14/quake2.jpg"></li>
 <li><img src="http://www.wstaw.org/m/2013/09/14/q3a.jpg"></li>
