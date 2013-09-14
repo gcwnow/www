@@ -7,11 +7,21 @@ Date: 2013-09-13
 
 <h2>Graphics and Games</h2>
 
-<p>At this point we would like to share with you yet another achievement of this project. In its infancy, the GCW Zero firmware launched without GPU (Graphics Processing Unit) drivers, which meant that software lineup was limited to 2D games or software rasterizing. As of today's firmware upgrade <a href=#1>[1]</a>, we are proud to announce the support of GCW Zero's Vivante GC860 GPU chip.</p>
+<p>At this point we would like to share with you yet another achievement of this project. In its infancy, the GCW Zero firmware launched without GPU (Graphics Processing Unit) drivers, which meant that software lineup was limited to 2D games or software rasterizing. As of today's firmware upgrade <a href=#1>[1]</a>, we are proud to announce the support of GCW Zero's Vivante GC860 GPU core.</p>
 
 <p>All thanks to the open source project of etna_viv maintained by Wladimir J. van der Laan. While still work-in-progress, it has finally reached a development stage that allows for a public release. We welcome gamers, enthusiasts and developers alike to test out the hardware acceleration. Issues and rendering problems can be reported at the GitHub issues page <a href=#2>[2]</a> from van der Laan.</p>
 
 <p>Below you will find a preview of the current stage of etna_viv driver on GCW Zero:</p>
+
+<object width="640" height="390">
+  <param name="movie"
+         value="https://www.youtube.com/v/kkpowIf5edU"></param>
+  <param name="allowScriptAccess" value="always"></param>
+  <embed src="https://www.youtube.com/v/kkpowIf5edU"
+         type="application/x-shockwave-flash"
+         allowscriptaccess="always"
+         width="640" height="390"></embed>
+</object>
 
 <ul class="gallery">
 <li><img src="http://www.wstaw.org/m/2013/09/14/quake1.jpg"></li>
@@ -22,11 +32,11 @@ Date: 2013-09-13
 <li><img src="https://blog.visucore.com/files/59/2013_08_23_hurrican_png_750x750_q85.jpg"></li>
 </ul>
 
-<p>All games displayed are property of their respective owners.</p>
+<p class="text_italic">(All games featured are property of their respective owners)</p>
 
 <p>For the technical overview, head over to Etnaviv Notes page we prepared for this purpose <a href=#3>[3]</a>.</p>
 
-<p>Please also visit Wladimir's blog <a href=#4>[4]</a>.</p>
+<p>Please also visit Wladimir's blog, where you can read interesting facts about the progress of development and see more game screenshots <a href=#4>[4]</a>.</p>
 
 <p><a name="1"></a>[1] <a href="http://www.gcw-zero.com/updates">http://www.gcw-zero.com/updates</a><br>
 <a name="2"></a>[2] <a href="https://github.com/laanwj/etna_viv/issues">https://github.com/laanwj/etna_viv/issues</a><br>

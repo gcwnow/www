@@ -777,6 +777,10 @@ a.social {
     font-weight: bold;
 }
 
+.text_italic {
+    font-style: italic;
+}
+
 .circle_small {
     width: 20px;
     border-radius: 50%;
