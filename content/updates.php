@@ -15,7 +15,7 @@ include "includes/header.php";
 <ul>
 <li>included improvements in OpenGL ES from the Etnaviv project; read <a href="files/etnaviv-2013-10-04.html">details here</a></li>
 <li>set GPU clock to 500 MHz (was 432 MHz)</li>
-<li>set VPU clock to 166 MHz (was 333 MHz, but it didn't actually work at this speed)</li>
+<li>set VPU memory bus clock to 166 MHz (was 333 MHz, but it didn't actually work at this speed); the VPU itself runs at 500 MHz</li>
 <li>print a reminder that the login name is "root" in the network configuration utility</li>
 </ul>
 
