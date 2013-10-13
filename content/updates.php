@@ -9,6 +9,16 @@ include "includes/header.php";
 
 <p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
 
+<h2>2013-10-04</h2>
+<p>Download: <a href="files/gcw0-update-2013-10-04.opk">OpenDingux Update for GCW Zero</a></p>
+<p>Changes:</p>
+<ul>
+<li>included improvements in OpenGL ES from the Etnaviv project; read <a href="files/etnaviv-2013-10-04.html">details here</a></li>
+<li>set GPU clock to 500 MHz (was 432 MHz)</li>
+<li>set VPU memory bus clock to 166 MHz (was 333 MHz, but it didn't actually work at this speed); the VPU itself runs at 500 MHz</li>
+<li>print a reminder that the login name is "root" in the network configuration utility</li>
+</ul>
+
 <h2>2013-09-13</h2>
 <p>Download: <a href="files/gcw0-update-2013-09-13.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
@@ -87,6 +97,9 @@ When you press <span style="font-variant: small-caps;">start</span> again, the s
 </ul>
 <p>
 The compile date for the kernel and rootfs should be equal to or very close to the date of the updater application.
+</p>
+<p>
+After the update is complete, you can remove the updater application (OPK file).
 </p>
 
 </div>
