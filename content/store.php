@@ -15,7 +15,7 @@ include "includes/header.php";
 
 <h2>Resellers</h2>
 
-<p>The device will be sold at gcw-zero.com, with <a href="https://www.dragonbox.de">dragonbox.de</a> (Europe), <a href="http://www.thinkgeek.com">ThinkGeek</a> (USA), <a href="https://sites.google.com/site/purewickedau/">PureWicked.AU</a> (Australia) and <a href="http://ithic.com/">ithic.com</a> (USA) as official resellers. Order details will be included on this page at a later date.</p>
+<p>The device will be sold at gcw-zero.com (worldwide), with <a href="https://www.dragonbox.de">DragonBox</a> (Europe), <a href="http://www.thinkgeek.com">ThinkGeek</a> (USA), <a href="https://sites.google.com/site/purewickedau/">PureWicked.AU</a> (Australia) and <a href="http://ithic.com/">Ithic.com</a> (USA) as official resellers. Order details will be included on this page at a later date.</p>
 
 </div>
 
