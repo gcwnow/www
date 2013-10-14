@@ -24,12 +24,12 @@ Date: 2013-09-13
 </object>
 
 <ul class="gallery" style="margin: -5px auto; width: 660px;">
-<li><img src="http://www.wstaw.org/m/2013/09/14/quake1.jpg"></li>
-<li><img src="http://wstaw.org/m/2013/09/14/quake2.jpg"></li>
-<li><img src="http://www.wstaw.org/m/2013/09/14/q3a.jpg"></li>
-<li><img src="http://wstaw.org/m/2013/09/14/oa.jpg"></li>
-<li><img src="http://wstaw.org/m/2013/09/14/d2x.jpg"></li>
-<li><img src="https://blog.visucore.com/files/59/2013_08_23_hurrican_png_750x750_q85.jpg"></li>
+<li><img src="images/articles/glquake.png"></li>
+<li><img src="images/articles/quake2.png"></li>
+<li><img src="images/articles/q3a.png"></li>
+<li><img src="images/articles/oa.png"></li>
+<li><img src="images/articles/d2x.png"></li>
+<li><img src="images/articles/turrican.jpg"></li>
 </ul>
 
 <p class="text_italic">(All games featured are property of their respective owners)</p>
