@@ -3,7 +3,7 @@ Date: 2013-09-13
 
 <h2>Shipping and Availability of Units</h2>
 
-<p>A milestone has been reached. 778 units have been shipped and another 200 are scheduled to ship on Saturday - but the project still has a long way to go. Both Special Edition and Kickstarter units will continue to ship while we strive to make communication more transparent. Retail units will become available on gcw-zero.com only after all the Kickstarter orders have been shipped.
+<p>A milestone has been reached. 778 units have been shipped and another 200 are scheduled to ship on Saturday - but the project still has a long way to go. Both Special Edition and Kickstarter units will continue to ship while we strive to make communication more transparent. Retail units will become available on gcw-zero.com only after all the Kickstarter orders have been shipped.</p>
 
 <h2>Graphics and Games</h2>
 
