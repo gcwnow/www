@@ -10,13 +10,20 @@ include "includes/header.php";
 <p>This page is mainly intended for resellers who flash the units before they go to customers, but it might be useful as well for end users who have a non-booting unit and want to attempt to restore it themselves.</p>
 <p><b>NOTE: This is not how you should update your GCW Zero; the flashing procedure will wipe all data!</b> If you want to update your firmware, follow the instructions on <a href="updates">this page</a> instead.</p>
 
+<h2>2013-11-03</h2>
+<p>New data image with Griffon Legend added and Stringrolled updated:</p>
+<ul>
+<li><a href="files/flash/data.2013-11-03.bin">data partition</a></li>
+</ul>
+<p>The other images are unchanged; use the 2013-10-04 versions.</p>
+
 <h2>2013-10-04</h2>
 <p>The following image files are needed to flash the GCW Zero:</p>
 <ul>
 <li><a href="files/flash/mbr.2013-10-04.bin">master boot record</a></li>
 <li>boot loader <a href="files/flash/ubiboot-v11_ddr2_256mb.2013-10-04.bin">for prototype (256MB) units</a> or <a href="files/flash/ubiboot-v20_mddr_512mb.2013-10-04.bin">for production (512MB) units</a><br>(resellers should use the latter)</li>
 <li><a href="files/flash/system.2013-10-04.bin">system partition</a></li>
-<li><a href="files/flash/data.2013-11-03.bin">data partition</a></li>
+<li><a href="files/flash/data.2013-10-04.bin">data partition</a></li>
 </ul>
 
 <h2>ingenic-boot</h2>
