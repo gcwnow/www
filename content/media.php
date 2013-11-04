@@ -172,6 +172,13 @@ include "includes/header.php";
 </a>
 </li>
 
+<li>
+<a href="images/screenshots/sc35.png">
+<img src="images/screenshots/thumb_sc35.png">
+<span>Griffon Legend</span>
+</a>
+</li>
+
 </ul>
 
 </div>

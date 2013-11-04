@@ -5,7 +5,7 @@ include "includes/header.php";
 
 <div id="carousel_container">
 <div id="carousel" class="black">
-<img class="slideshow1" src="images/slideshow/02.png" style="position: absolute;">
+<img class="slideshow1" src="images/slideshow/13.png" style="position: absolute;">
 <img class="slideshow2" src="images/slideshow/12.png" style="position: absolute;">
 <div id="slideshow_overlay_container">
 <a href="#" class="pause"><div></div><div></div></a>
