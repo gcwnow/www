@@ -103,8 +103,8 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="images/screenshots/sc8.png">
-<img src="images/screenshots/thumb_sc8.png">
+<a href="images/screenshots/sc34.png">
+<img src="images/screenshots/thumb_sc34.png">
 <span>Unnamed Monkey Game</span>
 </a>
 </li>
