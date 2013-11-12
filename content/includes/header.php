@@ -83,7 +83,7 @@ GCW Zero
 <li><a href='faq'>FAQ</a></li>
 <li><a href='updates'>Firmware Updates</a></li>
 <li><a href='flashing'>Firmware Flashing</a></li>
-<li><a target="_blank" href='http://boards.dingoonity.org/index.php#c10'>Dingoonity Forums</a></li>
+<li><a href='forums'>Forums</a></li>
 <li><a href='irc'>IRC Chatroom</a></li>
 <!--<li><a href='support'>Sales Support</a></li>-->
 </ul>
