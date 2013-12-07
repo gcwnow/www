@@ -9,6 +9,10 @@ include "includes/header.php";
 
 <p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
 
+<h2>Note: There is no update yet for retail units from December</h2>
+<p>The units shipped by ThinkGeek in December 2013 have a new WiFi chip. The driver for that chip is on the unit itself, but is not yet in the firmware update that you can find on this page. If you update your unit, WiFi will not work.</p>
+<p>The firmware on those units is up-to-date. There is no need to update them until another firmware update is released.</p>
+
 <h2>2013-10-04</h2>
 <p>Download: <a href="files/gcw0-update-2013-10-04.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
