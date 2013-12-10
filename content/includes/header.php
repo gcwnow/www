@@ -65,9 +65,10 @@ GCW Zero
 <ul id="navigation">
 <li><a href='/'><span class="gcwlogo1">GCW</span><span class="gcwlogo2">ZERO</span></a></li>
 <!--<li><a href='news'>News</a></li>-->
-<li><a href='specifications'>Specifications</a></li>
+<li><a href='specifications'>Specs</a></li>
 <li><a href='news'>News</a></li>
 <li><a href='media'>Media</a></li>
+<li><a href='downloads'>Downloads</a></li>
 <li><a href='store'>Buy</a></li>
 <li>
 <!--<a href='#'>Development &#x25BE;</a>
@@ -76,13 +77,13 @@ GCW Zero
 <li><a href='develop'>Develop etc</a></li>
 </ul>
 </li>-->
-<li><a href='develop'>Development</a></li>
+<li><a href='develop'>Develop</a></li>
 <li>
 <a href='#'>Support &#x25BE;</a>
 <ul>
 <li><a href='faq'>FAQ</a></li>
 <li><a href='updates'>Firmware Updates</a></li>
-<li><a href='flashing'>Firmware Flashing</a></li>
+<li><a href='http://wiki.gcw-zero.com/'>Community Wiki</a></li>
 <li><a href='forums'>Forums</a></li>
 <li><a href='irc'>IRC Chatroom</a></li>
 <!--<li><a href='support'>Sales Support</a></li>-->
