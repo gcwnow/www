@@ -83,6 +83,8 @@ GCW Zero
 <ul>
 <li><a href='faq'>FAQ</a></li>
 <li><a href='updates'>Firmware Updates</a></li>
+<li><a href='flashing'>Firmware Flashing</a></li>
+<li><a href='http://wiki.gcw-zero.com/Quick_Start_Guide'>Quick Start Guide</a></li>
 <li><a href='http://wiki.gcw-zero.com/'>Community Wiki</a></li>
 <li><a href='forums'>Forums</a></li>
 <li><a href='irc'>IRC Chatroom</a></li>
