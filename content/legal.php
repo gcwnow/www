@@ -1,7 +1,7 @@
 <?php
 $page = "legal";
 include "includes/header.php";
-?>
+?>
 <div id="content">
 
 <h1>Legal</h1>
