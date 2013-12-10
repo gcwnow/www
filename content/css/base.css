@@ -720,6 +720,26 @@ a.social {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
+ul.gallery.resellers {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery.resellers li {
+    width: 45%;
+    height: 180px;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery.resellers span.bgimage {
+    display: block;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .gallery a {
     display: block;
     opacity: 1;

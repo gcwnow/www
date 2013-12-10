@@ -7,15 +7,41 @@ include "includes/header.php";
 
 <h1>Where To Buy</h1>
 
-<a href="http://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld"><img class="image_full" src="images/kickstarter-logo-light.png"></a>
+<p>You can buy the GCW Zero from the following resellers:</p>
 
-<p>With $238,498 pledged of the initial goal of $130,000 the <a href="http://www.kickstarter.com/projects/gcw/gcw-zero-open-source-gaming-handheld">Kickstarter campaign</a> has been a great success!</p>
+<ul class="gallery resellers">
 
-<p class="image_center"><a href="http://www.kicktraq.com/projects/gcw/gcw-zero-open-source-gaming-handheld/" target="_blank"><img class="minichart" src="http://www.kicktraq.com/projects/gcw/gcw-zero-open-source-gaming-handheld/minichart.png" alt="GCW-Zero: Open Source Gaming Handheld -- Kicktraq Mini" title="GCW-Zero: Open Source Gaming Handheld -- Kicktraq Mini"></a></p>
+<li>
+<a href="http://www.thinkgeek.com/">
+<span class="bgimage" style="background-image: url(images/resellers/thinkgeek.png);"></span>
+<span class="label">ThinkGeek (USA)</span>
+</a>
+</li>
 
-<h2>Resellers</h2>
+<li>
+<a href="http://ithic.com/">
+<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
+<span class="label">Ithic.com (USA)</span>
+</a>
+</li>
 
-<p>The device will be sold at gcw-zero.com (worldwide), with <a href="https://www.dragonbox.de">DragonBox</a> (Europe), <a href="http://www.thinkgeek.com">ThinkGeek</a> (USA), <a href="https://sites.google.com/site/purewickedau/">PureWicked.AU</a> (Australia) and <a href="http://ithic.com/">Ithic.com</a> (USA) as official resellers. Order details will be included on this page at a later date.</p>
+<li>
+<a href="https://www.dragonbox.de/">
+<span class="bgimage" style="background-image: url(images/resellers/dragonbox.jpg);"></span>
+<span class="label">DragonBox (Europe)</span>
+</a>
+</li>
+
+<li>
+<a href="https://sites.google.com/site/purewickedau/">
+<span class="bgimage" style="background-image: url(images/resellers/purewickedau.png);"></span>
+<span class="label">PureWicked.AU (Australia)</span>
+</a>
+</li>
+
+</ul>
+
+<p>In the future, it will be possible to order the GCW Zero from gcw-zero.com (worldwide) as well.</p>
 
 </div>
 
