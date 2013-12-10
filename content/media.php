@@ -19,21 +19,21 @@ include "includes/header.php";
 <li>
 <a href="images/photos/front.png">
 <img src="images/photos/thumb_front.png">
-<span>Front</span>
+<span class="label">Front</span>
 </a>
 </li>
 
 <li>
 <a href="images/photos/top.png">
 <img src="images/photos/thumb_top.png">
-<span>Top</span>
+<span class="label">Top</span>
 </a>
 </li>
 
 <li>
 <a href="images/photos/bottom.png">
 <img src="images/photos/thumb_bottom.png">
-<span>Bottom</span>
+<span class="label">Bottom</span>
 </a>
 </li>
 
@@ -48,14 +48,14 @@ include "includes/header.php";
 <li>
 <a href="images/screenshots/sc33.png">
 <img src="images/screenshots/thumb_sc33.png">
-<span>gmenu2x</span>
+<span class="label">gmenu2x</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc22.png">
 <img src="images/screenshots/thumb_sc22.png">
-<span>System Update</span>
+<span class="label">System Update</span>
 </a>
 </li>
 
@@ -63,7 +63,7 @@ include "includes/header.php";
 <li>
 <a href="images/screenshots/sc23.png">
 <img src="images/screenshots/thumb_sc23.png">
-<span>Hardware Test</span>
+<span class="label">Hardware Test</span>
 </a>
 </li>
 
@@ -71,14 +71,14 @@ include "includes/header.php";
 <li>
 <a href="images/screenshots/sc24.png">
 <img src="images/screenshots/thumb_sc24.png">
-<span>Dingux Commander</span>
+<span class="label">Dingux Commander</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc25.png">
 <img src="images/screenshots/thumb_sc25.png">
-<span>pyClock</span>
+<span class="label">pyClock</span>
 </a>
 </li>
 
@@ -91,91 +91,91 @@ include "includes/header.php";
 <li>
 <a href="images/screenshots/sc3.png">
 <img src="images/screenshots/thumb_sc3.png">
-<span>Worship Vector</span>
+<span class="label">Worship Vector</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc4.png">
 <img src="images/screenshots/thumb_sc4.png">
-<span>Puzzletube</span>
+<span class="label">Puzzletube</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc34.png">
 <img src="images/screenshots/thumb_sc34.png">
-<span>Unnamed Monkey Game</span>
+<span class="label">Unnamed Monkey Game</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc9.png">
 <img src="images/screenshots/thumb_sc9.png">
-<span>SameGoo</span>
+<span class="label">SameGoo</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc10.png">
 <img src="images/screenshots/thumb_sc10.png">
-<span>Freedoom</span>
+<span class="label">Freedoom</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc13.png">
 <img src="images/screenshots/thumb_sc13.png">
-<span>Liero</span>
+<span class="label">Liero</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc26.png">
 <img src="images/screenshots/thumb_sc26.png">
-<span>Biniax-2</span>
+<span class="label">Biniax-2</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc17.png">
 <img src="images/screenshots/thumb_sc17.png">
-<span>Sqrxz3</span>
+<span class="label">Sqrxz3</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc19.png">
 <img src="images/screenshots/thumb_sc19.png">
-<span>Heroes</span>
+<span class="label">Heroes</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc20.png">
 <img src="images/screenshots/thumb_sc20.png">
-<span>Heroes</span>
+<span class="label">Heroes</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc21.png">
 <img src="images/screenshots/thumb_sc21.png">
-<span>Blockrage</span>
+<span class="label">Blockrage</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc27.png">
 <img src="images/screenshots/thumb_sc27.png">
-<span>Powder</span>
+<span class="label">Powder</span>
 </a>
 </li>
 
 <li>
 <a href="images/screenshots/sc35.png">
 <img src="images/screenshots/thumb_sc35.png">
-<span>Griffon Legend</span>
+<span class="label">Griffon Legend</span>
 </a>
 </li>
 

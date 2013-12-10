@@ -749,7 +749,7 @@ a.social {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.gallery span {
+.gallery span.label {
     position: absolute;
     bottom: 0;
     left: 0;
