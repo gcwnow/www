@@ -766,7 +766,7 @@ ul.gallery.resellers {
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
 }
 
 .gallery span.label {
@@ -785,6 +785,60 @@ ul.gallery.resellers {
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
     border-radius: 0 0 5px 5px;
+}
+
+/* ----- Gallery with long description ----- */
+
+.gallery2 {
+    padding: 0;
+    margin: -5px -5px;
+    border: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.gallery2 li {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.gallery2 li p {
+    max-width: 320px;
+    font-weight: bold;
+}
+
+.gallery2 a {
+    display: block;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+    transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.gallery2 a:hover {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.gallery2 img {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* ----- FAQ ----- */
