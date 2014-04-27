@@ -11,7 +11,9 @@ include "includes/header.php";
 
 <h2>OpenDingux Release 2014-04-27</h2>
 
-<p>Download: <a href="files/gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>
+<p><i>Several people on the Dingoonity forums have reported problems after updating. We're disabling downloads while we're investigating.</i></p>
+
+<!--<p>Download: <a href="files/gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>-->
 
 <p>Root file-system changes:</p>
 <ul>
