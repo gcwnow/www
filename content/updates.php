@@ -11,7 +11,7 @@ include "includes/header.php";
 
 <h2>OpenDingux Release 2014-04-27</h2>
 
-<p>Download: <a href="file.php?file=gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>
+<p>Download: <a href="files/gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>
 
 <p>Root file-system changes:</p>
 <ul>
@@ -33,7 +33,7 @@ include "includes/header.php";
 <ul>
 <li>Kernel based on Linux 3.12</li>
 <li>Watchdog driver (automatic reboot on kernel crash/panic)</li>
-<li>Optional joystick interface for built-in controls (see <a href="http://wiki.gcw-zero.com/OPK#OpenDingux-specific_metadata">http://wiki.gcw-zero.com/OPK#OpenDingux-specific_metadata</a>)</li>
+<li>Optional joystick interface for built-in controls; an application can request the joystick interface using <a href="http://wiki.gcw-zero.com/OPK#OpenDingux-specific_metadata">the new X-OD-NeedsJoystick key</a></li>
 <li>Supports loadable modules</li>
 <li>rfkill (Internal USB bus powered on-demand)</li>
 <li>Boot splash (press A for verbose boot)</li>
