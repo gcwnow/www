@@ -39,7 +39,7 @@ include "includes/header.php";
 <li>Boot splash (press A for verbose boot)</li>
 </ul>
 
-<p>GMenu2X</p>
+<p>GMenu2X:</p>
 <ul>
 <li>UI improvements</li>
 <li>Custom fonts supported</li>
