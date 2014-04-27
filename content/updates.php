@@ -9,11 +9,61 @@ include "includes/header.php";
 
 <p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
 
-<h2>Note: There is no update yet for retail units from December</h2>
-<p>The units shipped by ThinkGeek in December 2013 have a new WiFi chip. The driver for that chip is on the unit itself, but is not yet in the firmware update that you can find on this page. If you update your unit, WiFi will not work.</p>
-<p>The firmware on those units is up-to-date. There is no need to update them until another firmware update is released.</p>
+<h2>OpenDingux Release 2014-04-27</h2>
 
-<h2>2013-10-04</h2>
+<p>Download: <a href="file.php?file=gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>
+
+<p>Root file-system changes:</p>
+<ul>
+<li>Triple buffering in SDL</li>
+<li>Input through joydev instead of evdev for joysticks</li>
+<li>Access point mode (ad-hoc WiFi between two Zeros)</li>
+<li>Integrated WiFi manager (GCW Connect)</li>
+<li>Integrated image viewer (o2xiv)</li>
+<li>WiFi notifier (blinks the green LED slowly)</li>
+<li>Low-power warning (blinks the green LED fast)</li>
+<li>Root file-system based on Buildroot 2014.02</li>
+<li>Root file-system now located on system partition</li>
+<li>On-demand loading of the network daemons</li>
+<li>Added command-line tool to launch OPKs, "opkrun"</li>
+<li>Added WiFi modules for recent units</li>
+</ul>
+
+<p>Kernel changes:</p>
+<ul>
+<li>Kernel based on Linux 3.12</li>
+<li>Watchdog driver (automatic reboot on kernel crash/panic)</li>
+<li>Optional joystick interface for built-in controls (see <a href="http://wiki.gcw-zero.com/OPK#OpenDingux-specific_metadata">http://wiki.gcw-zero.com/OPK#OpenDingux-specific_metadata</a>)</li>
+<li>Supports loadable modules</li>
+<li>rfkill (Internal USB bus powered on-demand)</li>
+<li>Boot splash (press A for verbose boot)</li>
+</ul>
+
+<p>GMenu2X</p>
+<ul>
+<li>UI improvements</li>
+<li>Custom fonts supported</li>
+<li>New themes</li>
+<li>Full navigation with joystick</li>
+<li>Launches OPKs with "opkrun"</li>
+</ul>
+
+<p>Power switch daemon:</p>
+<ul>
+<li>Fix the Power + X bug (crazy input events after the combo is used)</li>
+<li>Sends SDLK_HOME if the switch is quickly flicked</li>
+</ul>
+
+<p>New important libraries:</p>
+<ul>
+<li>Allegro 4</li>
+<li>OpenAL</li>
+<li>Java (JamVM + GNU Classpath)</li>
+<li>JavaScript: NodeJS</li>
+<li>Lua: lua-jit</li>
+</ul>
+
+<h2>OpenDingux Release 2013-10-04</h2>
 <p>Download: <a href="files/gcw0-update-2013-10-04.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
@@ -23,7 +73,7 @@ include "includes/header.php";
 <li>print a reminder that the login name is "root" in the network configuration utility</li>
 </ul>
 
-<h2>2013-09-13</h2>
+<h2>OpenDingux Release 2013-09-13</h2>
 <p>Download: <a href="files/gcw0-update-2013-09-13.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
@@ -41,7 +91,7 @@ include "includes/header.php";
 <li>fixes in the gmenu2x file selector</li>
 </ul>
 
-<h2>2013-07-22</h2>
+<h2>OpenDingux Release 2013-07-22</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-22.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
@@ -55,7 +105,7 @@ include "includes/header.php";
 <li>added clock to bottom bar in gmenu2x</li>
 </ul>
 
-<h2>2013-07-06</h2>
+<h2>OpenDingux Release 2013-07-06</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-06.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
