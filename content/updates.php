@@ -9,11 +9,9 @@ include "includes/header.php";
 
 <p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
 
-<h2>OpenDingux Release 2014-04-27</h2>
+<h2>OpenDingux Release 2014-05-05</h2>
 
-<p><i>Several people on the Dingoonity forums have reported problems after updating. We're disabling downloads while we're investigating.</i></p>
-
-<!--<p>Download: <a href="files/gcw0-update-2014-04-27.opk">OpenDingux Update for GCW Zero</a></p>-->
+<p>Download: <a href="files/gcw0-update-2014-05-05.opk">OpenDingux Update for GCW Zero</a></p>
 
 <p>Root file-system changes:</p>
 <ul>
@@ -29,6 +27,7 @@ include "includes/header.php";
 <li>On-demand loading of the network daemons</li>
 <li>Added command-line tool to launch OPKs, "opkrun"</li>
 <li>Added WiFi modules for recent units</li>
+<li>Added GNU Screen</li>
 </ul>
 
 <p>Kernel changes:</p>
@@ -63,7 +62,12 @@ include "includes/header.php";
 <li>Java (JamVM + GNU Classpath)</li>
 <li>JavaScript: NodeJS</li>
 <li>Lua: lua-jit</li>
+<li>SDL2 (experimental)</li>
 </ul>
+
+<h2>OpenDingux Release 2014-04-27</h2>
+
+<p>This update was retracted because the files it installed could be corrupted while copying and one of the checksum verifications that protects against activating corrupted installs didn't work either.</p>
 
 <h2>OpenDingux Release 2013-10-04</h2>
 <p>Download: <a href="files/gcw0-update-2013-10-04.opk">OpenDingux Update for GCW Zero</a></p>
