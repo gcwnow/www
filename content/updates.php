@@ -13,6 +13,8 @@ include "includes/header.php";
 
 <p>Download: <a href="files/gcw0-update-2014-05-05-take2.opk">OpenDingux Update for GCW Zero</a></p>
 
+<p>If you encounter "<code>Flashed image is corrupted!</code>" error messages when installing the 2014-05-05 update, there is <a href="files/gcw0-anti-corruption-update-2014-05-05.opk">a special anti-corruption mini-update</a> to fix that issue. Install it and then retry the 2014-05-05 update. Note that this mini-update is intended only for October 2013 firmwares; you can find the firmware version in the System Info application under the Settings tab.</p>
+
 <p>Root file-system changes:</p>
 <ul>
 <li>Triple buffering in SDL</li>
