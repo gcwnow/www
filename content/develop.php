@@ -38,7 +38,7 @@ tar jxvf <i>/path/where/you/downloaded</i>/opendingux-gcw0-toolchain.<i>date</i>
 </pre>
 <p>It has to be installed in <code>/opt</code>, otherwise some of the tools will not work.</p>
 
-<p>You can add <code>/opt/gcw0-toolchain/usr/bin</code> to you <code>$PATH</code> if you want to be able to invoke the compiler and other tools without specifying the full path.</p>
+<p>You can add <code>/opt/gcw0-toolchain/usr/bin</code> to your <code>$PATH</code> if you want to be able to invoke the compiler and other tools without specifying the full path.</p>
 
 <p>The toolchain is built using buildroot. If you'd like to build the toolchain yourself, you can find the customized sources in a <a href="https://github.com/gcwnow/buildroot">repository on github</a>, with build instructions in the associated <a href="https://github.com/gcwnow/buildroot/wiki">wiki</a>.</p>
 
