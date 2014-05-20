@@ -22,7 +22,7 @@ include "includes/header.php";
 <div class="table-row"><div class="row0 text_bold">Wireless:</div><div class="row0">Wi-Fi 802.11 b/g/n 2.4 GHz, can connect to access point or direct device-to-device</div></div>
 <div class="table-row"><div class="row1 text_bold">Dimensions:</div><div class="row1">143 * 70 * 18 mm</div></div>
 <div class="table-row"><div class="row0 text_bold">Weight:</div><div class="row0">8 oz / 225 g</div></div>
-<div class="table-row"><div class="row1 text_bold">Battery:</div><div class="row1">2800 mAh</div></div>
+<div class="table-row"><div class="row1 text_bold">Battery:</div><div class="row1">2200 mAh</div></div>
 </div>
 
 </div>
