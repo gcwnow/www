@@ -33,7 +33,7 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="https://sites.google.com/site/purewickedau/">
+<a href="http://otakutoyz.blogspot.com/2014/06/purewicked.html">
 <span class="bgimage" style="background-image: url(images/resellers/purewickedau.png);"></span>
 <span class="label">PureWicked.AU (Australia)</span>
 </a>
