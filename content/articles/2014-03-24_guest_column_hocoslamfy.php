@@ -57,7 +57,7 @@ Date: 2014-03-24, Author: Nebuleon Fumika
 <li><img src="images/articles/screenshot118.png"><p>Early problems with 32 bpp surfaces.</p></li>
 <li><img src="images/articles/screenshot119.png"><p>Reducing the CPU usage had its problems.</p></li>
 <li><img src="images/articles/screenshot120.png"><p>hi-ban's bee, version 2.</p></li>
-<li><img src="images/articles/screenshot152.png"><p>And now the bamboo.</li>
+<li><img src="images/articles/screenshot152.png"><p>And now the bamboo.</p></li>
 </ul>
 
 <p>We still needed to find some good sound to accompany the game, and I tested the game with my sister. After lending her my GCW Zero and watching her play the game, I noticed that she never made comments on the score until her games were over, which was the opposite of what she did in Flappy Bird. I had to tell her the score because she couldn't look at it while playing the game, so I decided I'd do something about that.</p>
