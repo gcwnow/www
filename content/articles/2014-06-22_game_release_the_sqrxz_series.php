@@ -19,7 +19,7 @@ Date: 2014-06-22, Authors: Albert H. & Surkow
 
 <p>Created in 1996 for MS-DOS and Windows 9x by Marcus Vesterlund and John Holmvall, Sqrxz started life with the idea in mind that the player must race against time, collect a certain number of macguffin items (usually diamonds), and reach the end of the map. All while surviving the numerous hazards like enemies, spikes, pits, drowning in water and the aforementioned time limit.</p>
 
-<p>For the 2010 remake of the original DOS classic, a new mode with “deluxe” graphics has been introduced. The main game has been modified, so that now you must collect all items to open the door at the end of each level, with an additional three levels unique to the remake. A port of the remake has been released for the GCW Zero and can be found in the official GCW Zero repository<a href=#2>[2]</a>.</p>
+<p>For the 2010 remake of the original DOS classic, a new mode with "deluxe" graphics has been introduced. The main game has been modified, so that now you must collect all items to open the door at the end of each level, with an additional three levels unique to the remake. A port of the remake has been released for the GCW Zero and can be found in the official GCW Zero repository<a href=#2>[2]</a>.</p>
 
 <object width="650" height="400" class="center_container">
   <param name="movie"
