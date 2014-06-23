@@ -902,11 +902,18 @@ ul.gallery.resellers {
     text-align: center;
 }
 
+.image_center_a {
+    display: block;
+    height: 100%;
+    background: center center no-repeat;
+}
+
 .center_container {
     display: block;
     margin: 10px auto;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    background-color: black;
     overflow: none;
 }
 
