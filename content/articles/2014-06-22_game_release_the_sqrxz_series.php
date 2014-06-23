@@ -33,7 +33,7 @@ Date: 2014-06-22, Authors: Albert H. & Surkow
 
 <h2>Gameplay</h2>
 
-<p>In the first game, the setting is a forest in which Sqrxz must scavenge for his lost diamonds. In Sqrxz 2, Sqrxz travels to space and loses all of his diamonds again (He's so clumsy!). Things get shaken up in Sqrxz 3, as Sqrxz now has a girlfriend, who gets herself kidnapped by evil forces. To free her, Sqrxz must go around collecting diamond rings. What is it with rabbits and diamonds<a href=#3>[3]</a> in video games?</p>
+<p>In the first game, the setting is a forest in which Sqrxz must scavenge for his lost diamonds. In Sqrxz 2, Sqrxz travels to space and loses all of his diamonds again (He’s so clumsy!). Things get shaken up in Sqrxz 3, as Sqrxz now has a girlfriend, who gets herself kidnapped by evil forces. To free her, Sqrxz must go around collecting diamond rings. Finally, the 4th game is sort’ve a spin-off from the series. It is winter-themed and involves a newly married Sqrxz heading off into the winter tundra, to collect ice marbles that are valuable. This way, he can make ends meet for his soon-to-be family of three.</p>
 
 <ul class="gallery2" style="margin: -5px auto; width: 660px;">
 <li><img src="images/articles/sqrxz1.png"><p>Sqrxz 1</p></li>
@@ -44,7 +44,6 @@ Date: 2014-06-22, Authors: Albert H. & Surkow
 
 <p>
 <a name="1"></a>[1] <a href="http://retroguru.com/">http://retroguru.com/</a><br>
-<a name="4"></a>[2] <a href="http://repo.gcw-zero.com">http://repo.gcw-zero.com</a><br>
-<a name="2"></a>[3] <a href="https://www.youtube.com/watch?v=XLDjXh47SZM/">https://www.youtube.com/watch?v=XLDjXh47SZM</a>
+<a name="2"></a>[2] <a href="http://repo.gcw-zero.com">http://repo.gcw-zero.com</a><br>
 </p>
 
