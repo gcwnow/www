@@ -3,7 +3,7 @@ Date: 2014-06-22, Authors: Albert H. & Surkow
 
 <h2>Two seconds until death!</h2>
 
-<p>Finally, with much effort put in by our very own porting wizard Zear, comes Sqrxz, a four-part game series created by the members of team Retroguru<a href=#1>[1]</a> based on the original DOS classic Sqrxz. With the addition of a remake of the first game, the Sqrxz series is finally available on the GCW in full, and able to be enjoyed in all its migraine-inducing glory. Hop along the trail against terrifying odds, as you, eponymous lapine-ish hero, will be poised to save the day. Do you have spastic fingers not quite on the verge of carpal tunnel syndrome? Let Sqrxz remedy that. When you start dying, you will find yourself showing no mercy as you crush every unfortunate enemy underfoot!</p>
+<p>Finally, with much effort put in by our very own porting wizard Zear, comes Sqrxz, a four-part game series created by the members of team Retroguru<a href=#1>[1]</a> based on the original DOS classic Sqrxz. With the addition of a remake of the first game, the Sqrxz series is finally available on the GCW Zero in full, and able to be enjoyed in all its migraine-inducing glory. Hop along the trail against terrifying odds, as you, eponymous lapine-ish hero, will be poised to save the day. Do you have spastic fingers not quite on the verge of carpal tunnel syndrome? Let Sqrxz remedy that. When you start dying, you will find yourself showing no mercy as you crush every unfortunate enemy underfoot!</p>
 
 <object width="650" height="400" class="center_container">
   <param name="movie"
