@@ -17,12 +17,15 @@ if(isset($_GET['id'])) {
         include "articles/2014-03-24_guest_column_hocoslamfy.php";
     } elseif($product_id == 4) {
         include "articles/2014-06-22_game_release_the_sqrxz_series.php";
+    } elseif($product_id == 5) {
+        include "articles/2014-07-04_game_release_xump.php";
     } else {
         echo 'Page does not exist.';
     }
 
 } else {
     echo '<h1>News</h1>
+2014-07-04 - <a href="news.php?id=5">Game Release - Xump</a><br>
 2014-06-22 - <a href="news.php?id=4">Game Release - The Sqrxz Series</a><br>
 2014-03-24 - <a href="news.php?id=3">Guest column - The making of Hocoslamfy</a><br>
 2013-10-13 - <a href="news.php?id=2">Game Release - Griffon Legend</a><br>
