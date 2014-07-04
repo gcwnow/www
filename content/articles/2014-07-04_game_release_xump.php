@@ -19,10 +19,10 @@ Date: 2014-07-04, Authors: Albert H. &amp; Surkow
 <p>Initially starting development in 2005 under Psilocybin Development, the game has been completely revamped by the Retroguru team. They've made entirely new levels, graphics and music, to name a few things. The game is now featured on the GCW Zero for the first time ever. Xump can be freely downloaded from the GCW software repository<a href=#3>[3]</a>.</p>
 
 <ul class="gallery2" style="margin: -5px auto; width: 660px;">
-<li><img src="images/articles/image01.png"></li>
-<li><img src="images/articles/image00.png"></li>
-<li><img src="images/articles/image02.png"></li>
 <li><img src="images/articles/image03.png"></li>
+<li><img src="images/articles/image04.png"></li>
+<li><img src="images/articles/image02.png"></li>
+<li><img src="images/articles/image01.png"></li>
 </ul>
 
 <p>
