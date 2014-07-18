@@ -17,7 +17,7 @@ include "includes/header.php";
 <div class="table-row"><div class="row1 text_bold">Connectivity:</div><div class="row1">Mini USB 2.0 OTG</div></div>
 <div class="table-row"><div class="row1 text_bold"></div><div class="row1">Mini HDMI 1.3 out</div></div>
 <div class="table-row"><div class="row1 text_bold"></div><div class="row1">3.5 mm (mini jack) A/V port for earphone and analog TV-out</div></div>
-<div class="table-row"><div class="row0 text_bold">Audio:</div><div class="row0">Stereo speakers, mono microphone</div></div>
+<div class="table-row"><div class="row0 text_bold">Audio:</div><div class="row0">Speakers, microphone</div></div>
 <div class="table-row"><div class="row1 text_bold">Other:</div><div class="row1">Accelerometer (g-sensor) and vibration motors</div></div>
 <div class="table-row"><div class="row0 text_bold">Wireless:</div><div class="row0">Wi-Fi 802.11 b/g/n 2.4 GHz, can connect to access point or direct device-to-device</div></div>
 <div class="table-row"><div class="row1 text_bold">Dimensions:</div><div class="row1">143 * 70 * 18 mm</div></div>
