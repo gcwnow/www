@@ -912,10 +912,17 @@ ul.gallery.resellers {
     display: block;
     margin: 10px auto;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    /*border-radius: 5px; Disabled due to Google Chrome radius bug in objects*/
     background-color: black;
     overflow: none;
 }
+
+/*@media not all and (-webkit-min-device-pixel-ratio:0)
+{  
+    .center_container {
+        border-radius: unset;
+    }
+}*/
 
 .minichart {
     width: 600px;
