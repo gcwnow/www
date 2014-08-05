@@ -30,7 +30,7 @@ Date: 2014-08-04, Author: Albert H.
 <li><img src="images/articles/screenshot036.png"></li>
 </ul>
 
-<p>Now, with Tile World in its freely distributable form, several free map packs are included which recreate both the Lynx and Windows style of game mechanics as built into the engine. The GCW Zero port offers numerous options for controlling the character, including the D-Pad, ABXY buttons and optionally the joystick nub. The latter option might be a bit fiddly for some (given this game has no actual use of analog-type controls or even anything more than 4 directions of absolute movement), but its inclusion is nevertheless appreciated by those who feel they have an advantage with the joystick nub.</p>
+<p>Now, with Tile World in its freely distributable form, several free map packs are included which recreate both the Lynx and Windows style of game mechanics as built into the engine. The GCW Zero port by Daniel Silsby offers numerous options for controlling the character, including the D-Pad, ABXY buttons and optionally the joystick nub. The latter option might be a bit fiddly for some (given this game has no actual use of analog-type controls or even anything more than 4 directions of absolute movement), but its inclusion is nevertheless appreciated by those who feel they have an advantage with the joystick nub.</p>
 
 <p>Tile World can be freely downloaded from the GCW software repository<a href=#5>[5]</a>, so get it today and experience the mind-boggling challenges that this game will throw at you.</p>
 
