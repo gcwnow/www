@@ -11,7 +11,7 @@ Date: 2014-08-04, Author: Albert H.
   <param name="movie"
          value="https://www.youtube.com/v/gHxScwJOenw"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=gHxScwJOenw" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/gHxScwJOenw');"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=gHxScwJOenw" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/gHxScwJOenw/0.jpg');"></a>
 </object>
 
 <p>Chip's Challenge was an early Windows game included in Microsoft Entertainment Pack collections, where it rose to prominence. Chip's Challenge did not start out on Windows, but it started off on the Atari Lynx, which was a first in the handheld market for having a color screen and good graphics but ultimately failed for its lack of third-party developer support and high battery costs. <a href=#1>[1]</a></p>
