@@ -1,4 +1,4 @@
-<h1>News :: Game release - Xump</h1>
+<h1>News :: Game Release - Xump</h1>
 Date: 2014-07-04, Authors: Albert H. &amp; Surkow
 
 <h2>Space Cleaning Madness</h2>

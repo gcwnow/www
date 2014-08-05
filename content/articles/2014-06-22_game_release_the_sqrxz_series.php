@@ -1,4 +1,4 @@
-<h1>News :: Game release - The Sqrxz Series</h1>
+<h1>News :: Game Release - The Sqrxz Series</h1>
 Date: 2014-06-22, Authors: Albert H. &amp; Surkow
 
 <h2>Two seconds until death!</h2>

@@ -1,4 +1,4 @@
-<h1>News :: Guest column - The making of Hocoslamfy</h1>
+<h1>News :: Guest Column - The making of Hocoslamfy</h1>
 Date: 2014-03-24, Author: Nebuleon Fumika
 
 <h2>About the game</h2>
