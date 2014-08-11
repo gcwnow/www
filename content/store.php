@@ -12,23 +12,30 @@ include "includes/header.php";
 <ul class="gallery resellers">
 
 <li>
-<a href="http://www.thinkgeek.com/">
+<a href="http://www.thinkgeek.com/product/168f/">
 <span class="bgimage" style="background-image: url(images/resellers/thinkgeek.png);"></span>
 <span class="label">ThinkGeek (USA)</span>
 </a>
 </li>
 
 <li>
-<a href="http://ithic.com/">
-<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
-<span class="label">Ithic.com (USA)</span>
+<a href="http://geekswithwives.com/buy-gcw-zero/">
+<span class="bgimage" style="background-image: url(images/resellers/GeeksFinal-2_400x400.jpg); background-size: 100px 100px;"></span>
+<span class="label">Geeks With Wives (USA)</span>
 </a>
 </li>
 
 <li>
-<a href="https://www.dragonbox.de/">
+<a href="https://www.dragonbox.de/en/32-gcw-zero/">
 <span class="bgimage" style="background-image: url(images/resellers/dragonbox.jpg);"></span>
 <span class="label">DragonBox (Europe)</span>
+</a>
+</li>
+
+<li>
+<a href="http://ithic.com/newsite/index.php?id_category=8&controller=category">
+<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
+<span class="label">Ithic.com (USA)</span>
 </a>
 </li>
 
