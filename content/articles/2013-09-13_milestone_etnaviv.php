@@ -1,5 +1,5 @@
 <h1>News :: Etnaviv Milestone</h1>
-Date: 2013-09-13
+<span class="article_data">Date: 2013-09-13</span>
 
 <h2>Shipping and Availability of Units</h2>
 
@@ -23,7 +23,7 @@ Date: 2013-09-13
          width="650" height="400"></embed>
 </object>
 
-<ul class="gallery" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/glquake.png"></li>
 <li><img src="images/articles/quake2.png"></li>
 <li><img src="images/articles/q3a.png"></li>

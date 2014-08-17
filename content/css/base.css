@@ -787,11 +787,11 @@ ul.gallery.resellers {
     border-radius: 0 0 5px 5px;
 }
 
-/* ----- Gallery with long description ----- */
+/* ----- Gallery with description ----- */
 
 .gallery2 {
     padding: 0;
-    margin: -5px -5px;
+    margin: 0px auto;
     border: 0;
     list-style: none;
     overflow: hidden;
@@ -807,9 +807,28 @@ ul.gallery.resellers {
     background: transparent;
 }
 
+/* Per image description */
 .gallery2 li p {
     max-width: 320px;
+    margin: 10px 0 0;
     font-weight: bold;
+    font-size: smaller;
+    text-align: center;
+}
+
+/* Image description for block of images */
+.gallery2 li.description {
+    width: 100%;
+    padding: 0;
+}
+
+.gallery2 li.description p {
+    max-width: none;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: smaller;
+    text-align: center;
 }
 
 .gallery2 a {
@@ -839,6 +858,10 @@ ul.gallery.resellers {
     margin: 0;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery2 img.small {
+    max-width: 320px;
 }
 
 /* ----- FAQ ----- */
@@ -930,3 +953,11 @@ ul.gallery.resellers {
     width: 600px;
     height: 270px;
 }
+
+.article_data {
+    display: block;
+    margin: -15px 0 15px 0;
+    font-style: italic;
+    font-size: smaller;
+}
+

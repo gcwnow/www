@@ -1,5 +1,5 @@
 <h1>News :: Featured Game - Tile World</h1>
-Date: 2014-08-04, Author: Albert H.
+<span class="article_data">Date: 2014-08-04, Author: Albert H., Editor: Surkow</span>
 
 <h2>Fun with tiles</h2>
 
@@ -18,14 +18,14 @@ Date: 2014-08-04, Author: Albert H.
 
 <p>For its initial release on the Lynx, the game was finished in part by Chuck Sommerville in his spare time, then developers at Epyx software continued it, including Sommerville himself as well as Bill Darrah, a professional puzzle designer. This first version of the game was the template for later ports like the well-known Windows port, which inherited the same 148 levels (with an additional level thrown in). <a href=#2>[2]</a></p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/screenshot033.png"><p>Gameplay of Tile World</p></li>
 <li><img src="images/articles/ingame_menu.png"><p>Ingame menu</p></li>
 </ul>
 
 <p>With support from Sommerville himself, Brian Raiter started on a recreation of the Lynx and Windows version engines in 2000. As Microsoft had basically barred any further work on the original Chip's Challenge license through their acquisition of it, Sommerville had relented any efforts to make a true sequel to the game. He decided to support Raiter's new engine for his spiritual sequel. Released in 2002, Tile World has since become the de facto standard for all Chip's Challenge enthusiasts. The engine can technically support data files from both the original Lynx and Windows versions of the games, each having its technical quirks that change the game mechanics slightly. <a href=#3>[3]</a><a href=#4>[4]</a></p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/level_select.png"><p>Level select</p></li>
 <li><img src="images/articles/levelpack_selection.png"><p>Levelpack selection</p></li>
 </ul>

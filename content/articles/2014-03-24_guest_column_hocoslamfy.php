@@ -1,5 +1,5 @@
 <h1>News :: Guest Column - The making of Hocoslamfy</h1>
-Date: 2014-03-24, Author: Nebuleon Fumika
+<span class="article_data">Date: 2014-03-24, Author: Nebuleon Fumika</span>
 
 <h2>About the game</h2>
 
@@ -27,7 +27,7 @@ Date: 2014-03-24, Author: Nebuleon Fumika
 
 <p>I set up the project directory and Makefile, reusing lots of code from ReGBA<a href=#1>[1]</a>, and made a simple version without any graphics. The name was decided hastily, but kind of stuck after the events that followed. It took me only 5:30 hours of coding, and there it was! The first version of hocoslamfy!</p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/screenshot114.png"><p>Playing the first version.</p></li>
 <li><img src="images/articles/screenshot113.png"><p>The first high score.</p></li>
 </ul>
@@ -36,7 +36,7 @@ Date: 2014-03-24, Author: Nebuleon Fumika
 
 <p>Already, hi-ban (our graphics artist) had started making graphics for the game. He also integrated the graphics into the game, which is the first time he's ever coded for a game. He thought it was cool to actually make the code that drew his graphics to the screen.</p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/screenshot115.png"><p>hi-ban's graphics, version 1.</p></li>
 <li><img src="images/articles/screenshot117.png"><p>A much improved high score.</p></li>
 </ul>
@@ -53,7 +53,7 @@ Date: 2014-03-24, Author: Nebuleon Fumika
 
 <p>After getting it to work with SDL_DisplayFormatAlpha, hi-ban started to work on making bamboo in the same style as the rest of the graphics.</p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/screenshot118.png"><p>Early problems with 32 bpp surfaces.</p></li>
 <li><img src="images/articles/screenshot119.png"><p>Reducing the CPU usage had its problems.</p></li>
 <li><img src="images/articles/screenshot120.png"><p>hi-ban's bee, version 2.</p></li>
@@ -70,7 +70,7 @@ Date: 2014-03-24, Author: Nebuleon Fumika
 
 <p>I eventually chose to display the score a player could have if he or she passed the bamboos in the middle of the spaces themselves.</p>
 
-<ul class="gallery2" style="margin: -5px auto; width: 660px;">
+<ul class="gallery2" style="width: 660px;">
 <li><img src="images/articles/hocoslamfy-score-shown-1.png"><p>How the score was shown before.</p></li>
 <li><img src="images/articles/hocoslamfy-score-shown-2.png"><p>Now the player can see it better.</p></li>
 </ul>
