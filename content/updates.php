@@ -7,7 +7,58 @@ include "includes/header.php";
 
 <h1>Firmware Updates</h1>
 
-<p>You only need to download the latest updater: it includes the full firmware so it will bring your Zero up-to-date regardless of the version you're updating from.</p>
+<p>The update process depends on which firmware version your Zero is currently running. To check the version, go to the "Settings" tab and start "System Info". Look at the dates on the <code>Compiled on</code> lines.</p>
+
+<dl>
+<dt>older than October 2013:</dt>
+<dd>Update to the October 2013 firmware first, then read on below.
+<dt>October 2013: (2013-10-04)</dt>
+<dd>Install the <a href="files/gcw0-anti-corruption-update-2014-05-05.opk">a special anti-corruption mini-update</a> to fix a data corruption issue that can prevent the full update from succeeding. After that, install the 2014-08-20 update.</dd>
+<dt>May 2014: (2014-05-05)</dt>
+<dd>You can install the 2014-08-20 update right away.
+</dl>
+
+<p>You can find installation instructions <a href="#instructions">below the change logs</a>.</p>
+
+<h2>OpenDingux Release 2014-08-20</h2>
+
+<p>Download: <a href="files/gcw0-update-2014-08-20.opk">OpenDingux Update for GCW Zero</a></p>
+
+<h3>Image Scaling:</h3>
+<p>The hardware image processor (IPU) is now used to rescale video to fit the Zero's 320x240 screen. This is already useful for some applications and is an essential step towards HDMI and analog TV-out.</p>
+<p>Applications can be modified to request resolutions smaller than 320x240, which will then be scaled up in hardware. This can allow for example some emulators to run a bit faster. By default, scaling will preserve the aspect ratio, but if you prefer to have no black borders even if that means distorting the image, you can switch modes using Power+A.</p>
+<p>Applications can also set the key <code>X-OD-NeedsDownscaling=true</code> in their OPK metadata to request the use of resolutions higher than 320x240 which are then downscaled to 320x240. This can help in porting PC applications that need for example 640x480 output resolution. For applications that can render in either low (320x240 or below) or high resolution, we suggest to not set this key and render in low resolution, since outputting fewer pixels is better for performance and battery life.</p>
+
+<h3>G-sensor:</h3>
+<p>A driver was added that makes the g-sensor in the Zero available as a joystick. Applications that want to use this should set <code>X-OD-NeedsGSensor=true</code> in their OPK metadata.</p>
+
+<h3>Rumble:</h3>
+<p>A driver was added for the rumble motor inside the Zero. It can be used via the <a href="https://wiki.libsdl.org/CategoryForceFeedback">SDL2 haptic API</a>.</p>
+
+<h3>GMenu2X Improvements:</h3>
+<p>The file selector is now a lot faster when entering directories with lots of files. Also the button repeat rate is now configurable, so you can increase this if you think scrolling is too slow.</p>
+<p>Preview images (such as screenshots or cover art for game ROMs) are shown semi-transparently full screen behind the file list. Preview images should be placed in a directory named <code>previews</code> below the directory containing the data files, where the preview image has the same file name as the corresponding data file, but with the file extension <code>.png</code>. For example for <code>my-favorite-game.rom</code> the preview image would be <code>previews/my-favorite-game.png</code>.</p>
+<p>The displaying of manuals was made faster, bugs were fixed and support for non-Latin scripts was improved. Several translations were updated, Unicode support was improved and long line wrapping is supported in more places now. There were lots of smaller tweaks, bug fixes and optimizations as well.</p>
+
+<h3>Date and Time Changes:</h3>
+<p>We switched to a different hardware clock (RTC) driver. A side effect of this is that the first time you run the new firmware, the date will be reset to 1970 (the beginning of time in the UNIX world). The easiest way to correct the time is to connect to a WiFi access point, then the right time will be fetched over the network (via NTP). Alternatively, you can manually set the time using the clock application.</p>
+<p>When the system time is updated via the network (NTP), it is now properly saved in the hardware clock (RTC) on shutdown; previously a bug prevented this.</p>
+<p>A time zone database was added. There is no GUI for it yet, but from the command line you can create a symlink from <code>/etc/local/timezone</code> to the file under <code>/usr/share/zoneinfo/uclibc/</code> representing your local time zone.</p>
+
+<h3>Changes for Developers:</h3>
+<ul>
+<li>The popular Love2D runtime is now part of the rootfs.</li>
+<li>Added libraries: GLM (OpenGL Mathematics), SDL2 (no longer experimental), SDL2_image, SDL2_ttf, SDL2_mixer, SDL2_net.</li>
+<li>Removed packages: links, newt, slang.</li>
+</ul>
+
+<h3>Other changes:</h3>
+<ul>
+<li>The button mapping in DinguxCommander was fixed.</li>
+<li>When a Zero is used as a WiFi access point (AP), broadcast packets are now routed over WiFi. This allows a LAN-enabled game instances on two devices (for example, two Zeroes or a Zero and laptop) to find the each other.</li>
+<li>Enabled support for huge files and EFI partition tables; this improves compatibility with external SD cards with atypical formatting.</li>
+<li>The <code>7zr</code> tool was added, which can extract <code>.7z</code> archives. Together with the <code>tar</code>, <code>unzip</code> and <code>unrar</code> tools which have been available for a while, OpenDingux should be able to unpack all common archive formats.</li>
+</ul>
 
 <h2>OpenDingux Release 2014-05-05</h2>
 
@@ -127,7 +178,7 @@ include "includes/header.php";
 <li>added shared memory support (allows more applications to be ported)</li>
 </ul>
 
-<h2>How it works</h2>
+<h2><a id="instructions">How it works</a></h2>
 
 <p>
 First make sure you have a backup of all valuable user data you have on your GCW Zero, such as save games.
