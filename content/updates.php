@@ -38,7 +38,12 @@ include "includes/header.php";
 <h3>GMenu2X Improvements:</h3>
 <p>The file selector is now a lot faster when entering directories with lots of files. Also the button repeat rate is now configurable, so you can increase this if you think scrolling is too slow.</p>
 <p>Preview images (such as screenshots or cover art for game ROMs) are shown semi-transparently full screen behind the file list. Preview images should be placed in a directory named <code>previews</code> below the directory containing the data files, where the preview image has the same file name as the corresponding data file, but with the file extension <code>.png</code>. For example for <code>my-favorite-game.rom</code> the preview image would be <code>previews/my-favorite-game.png</code>.</p>
-<p>The displaying of manuals was made faster, bugs were fixed and support for non-Latin scripts was improved. Several translations were updated, Unicode support was improved and long line wrapping is supported in more places now. There were lots of smaller tweaks, bug fixes and optimizations as well.</p>
+<p>The displaying of manuals was made faster, bugs were fixed and support for non-Latin scripts was improved. Unicode support was enhanced and long line wrapping is supported in more places now. Messages appearing on selecting the Power Off/Reboot menu entries make more sense now. There were lots of smaller tweaks, bug fixes and optimizations as well.</p>
+<p>Two new translations were added:</p>
+<ul>
+<li>Norwegian by Lithium Flower</li>
+<li>Polish - by Artur "zear" Rojek</li>
+</ul>
 
 <h3>Date and Time Changes:</h3>
 <p>We switched to a different hardware clock (RTC) driver. A side effect of this is that the first time you run the new firmware, the date will be reset to 1970 (the beginning of time in the UNIX world). The easiest way to correct the time is to connect to a WiFi access point, then the right time will be fetched over the network (via NTP). Alternatively, you can manually set the time using the clock application.</p>
