@@ -10,7 +10,7 @@ include "includes/header.php";
 <p>The update process depends on which firmware version your Zero is currently running. To check the version, go to the "Settings" tab and start "System Info". Look at the dates on the <code>Compiled on</code> lines.</p>
 
 <dl>
-<dt>older than October 2013:</dt>
+<dt>Older than October 2013:</dt>
 <dd>Update to the October 2013 firmware first, then read on below.
 <dt>October 2013: (2013-10-04)</dt>
 <dd>Install the <a href="files/gcw0-anti-corruption-update-2014-05-05.opk">a special anti-corruption mini-update</a> to fix a data corruption issue that can prevent the full update from succeeding. After that, install the 2014-08-20 update.</dd>
@@ -131,56 +131,56 @@ include "includes/header.php";
 <p>Download: <a href="files/gcw0-update-2013-10-04.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
-<li>included improvements in OpenGL ES from the Etnaviv project; read <a href="files/etnaviv-2013-10-04.html">details here</a></li>
-<li>set GPU clock to 500 MHz (was 432 MHz)</li>
-<li>set VPU memory bus clock to 166 MHz (was 333 MHz, but it didn't actually work at this speed); the VPU itself runs at 500 MHz</li>
-<li>print a reminder that the login name is "root" in the network configuration utility</li>
+<li>Included improvements in OpenGL ES from the Etnaviv project; read <a href="files/etnaviv-2013-10-04.html">details here</a></li>
+<li>Set GPU clock to 500 MHz (was 432 MHz)</li>
+<li>Set VPU memory bus clock to 166 MHz (was 333 MHz, but it didn't actually work at this speed); the VPU itself runs at 500 MHz</li>
+<li>Print a reminder that the login name is "root" in the network configuration utility</li>
 </ul>
 
 <h2>OpenDingux Release 2013-09-13</h2>
 <p>Download: <a href="files/gcw0-update-2013-09-13.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
-<li>added OpenGL ES 1 and 2 support; this is based on Etnaviv and Mesa, so fully open source; read <a href="files/etnaviv-2013-09-13.html">details here</a></li>
-<li>added network configuration utility under the "settings" tab in gmenu2x; you can choose between setting a random password (recommended) or passwordless login; login name is "root"</li>
-<li>fixed problem where the analog joystick (nub) sometimes wouldn't work</li>
-<li>added file type detection for DOS <code>.bat</code> and <code>.com</code> files</li>
-<li>show black screen when switching video mode, instead of leftover graphics data</li>
-<li>screenshots (power + Y) work now for all applications (16 bpp was broken before)</li>
-<li>mouse emulation (power + B) works again</li>
-<li>gmenu2x can now be controlled by joystick</li>
-<li>several graphical cleanups in gmenu2x, also added an animation on tab switching</li>
-<li>gmenu2x now shows large SD card capacities in gigabytes instead of megabytes</li>
-<li>reduced key repeat rate in gmenu2x</li>
-<li>fixes in the gmenu2x file selector</li>
+<li>Added OpenGL ES 1 and 2 support; this is based on Etnaviv and Mesa, so fully open source; read <a href="files/etnaviv-2013-09-13.html">details here</a></li>
+<li>Added network configuration utility under the "settings" tab in gmenu2x; you can choose between setting a random password (recommended) or passwordless login; login name is "root"</li>
+<li>Fixed problem where the analog joystick (nub) sometimes wouldn't work</li>
+<li>Added file type detection for DOS <code>.bat</code> and <code>.com</code> files</li>
+<li>Show black screen when switching video mode, instead of leftover graphics data</li>
+<li>Screenshots (power + Y) work now for all applications (16 bpp was broken before)</li>
+<li>Mouse emulation (power + B) works again</li>
+<li>GMenu2x can now be controlled by joystick</li>
+<li>Several graphical cleanups in gmenu2x, also added an animation on tab switching</li>
+<li>GMenu2x now shows large SD card capacities in gigabytes instead of megabytes</li>
+<li>Reduced key repeat rate in gmenu2x</li>
+<li>Fixes in the gmenu2x file selector</li>
 </ul>
 
 <h2>OpenDingux Release 2013-07-22</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-22.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
-<li>fixed problem where a headphone wouldn't activate if plugged in when an application was already running</li>
-<li>completely turn off sound at minimum volume setting</li>
-<li>reduced pops when starting and stopping audio</li>
-<li>improved file type detection, in particular for data files used by emulators</li>
-<li>fixed problem where powering off the device by holding the power slider for 3 seconds didn't work in some situations</li>
-<li>gmenu2x will pick up new OPK files (uploaded through FTP, for example) without restarting</li>
-<li>the file selector in gmenu2x will accept all files by default</li>
-<li>added clock to bottom bar in gmenu2x</li>
+<li>Fixed problem where a headphone wouldn't activate if plugged in when an application was already running</li>
+<li>Completely turn off sound at minimum volume setting</li>
+<li>Reduced pops when starting and stopping audio</li>
+<li>Umproved file type detection, in particular for data files used by emulators</li>
+<li>Fixed problem where powering off the device by holding the power slider for 3 seconds didn't work in some situations</li>
+<li>GMenu2x will pick up new OPK files (uploaded through FTP, for example) without restarting</li>
+<li>The file selector in gmenu2x will accept all files by default</li>
+<li>Added clock to bottom bar in gmenu2x</li>
 </ul>
 
 <h2>OpenDingux Release 2013-07-06</h2>
 <p>Download: <a href="files/gcw0-update-2013-07-06.opk">OpenDingux Update for GCW Zero</a></p>
 <p>Changes:</p>
 <ul>
-<li>improved video performance (enabled framebuffer caching)</li>
-<li>made vsync more robust (eliminated glitches on page flipping)</li>
-<li>made the FTP server list hidden files (names starting with a dot)</li>
-<li>improved Unicode support in both gmenu2x and command line tools</li>
-<li>fixed bug that powered off the system if the power slider was raised, released, then raised again soon after</li>
-<li>list IP addresses in System Info application</li>
-<li>added unrar command line tool</li>
-<li>added shared memory support (allows more applications to be ported)</li>
+<li>Improved video performance (enabled framebuffer caching)</li>
+<li>Made vsync more robust (eliminated glitches on page flipping)</li>
+<li>Made the FTP server list hidden files (names starting with a dot)</li>
+<li>Improved Unicode support in both gmenu2x and command line tools</li>
+<li>Fixed bug that powered off the system if the power slider was raised, released, then raised again soon after</li>
+<li>List IP addresses in System Info application</li>
+<li>Added unrar command line tool</li>
+<li>Added shared memory support (allows more applications to be ported)</li>
 </ul>
 
 <h2><a id="instructions">How it works</a></h2>
