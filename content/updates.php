@@ -42,7 +42,7 @@ include "includes/header.php";
 <p>Two new translations were added:</p>
 <ul>
 <li>Norwegian by Lithium Flower</li>
-<li>Polish - by Artur "zear" Rojek</li>
+<li>Polish by Artur "zear" Rojek</li>
 </ul>
 
 <h3>Date and Time Changes:</h3>
