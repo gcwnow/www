@@ -26,6 +26,13 @@ include "includes/header.php";
 </li>
 
 <li>
+<a href="http://ithic.com/newsite/index.php?id_category=8&controller=category">
+<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
+<span class="label">Ithic.com (USA)</span>
+</a>
+</li>
+
+<li>
 <a href="https://www.dragonbox.de/en/32-gcw-zero/">
 <span class="bgimage" style="background-image: url(images/resellers/dragonbox.jpg);"></span>
 <span class="label">DragonBox (Europe)</span>
@@ -33,9 +40,9 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="http://ithic.com/newsite/index.php?id_category=8&controller=category">
-<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
-<span class="label">Ithic.com (USA)</span>
+<a href="http://www.gameseek.co.uk/">
+<span class="bgimage" style="background-image: url(images/resellers/gameseek_logo_small.png);"></span>
+<span class="label">GameSeek (United Kingdom)</span>
 </a>
 </li>
 
