@@ -40,7 +40,7 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="http://www.gameseek.co.uk/">
+<a href="http://www.gameseek.co.uk/pd/Toys9qb3uvt9emp/">
 <span class="bgimage" style="background-image: url(images/resellers/gameseek_logo_small.png);"></span>
 <span class="label">GameSeek (United Kingdom)</span>
 </a>
