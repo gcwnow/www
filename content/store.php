@@ -13,7 +13,7 @@ include "includes/header.php";
 
 <li>
 <a href="http://www.thinkgeek.com/product/168f/">
-<span class="bgimage" style="background-image: url(images/resellers/thinkgeek.png);"></span>
+<span class="bgimage" style="background-image: url('images/resellers/ThinkGeek Logo 2014.png');"></span>
 <span class="label">ThinkGeek (USA)</span>
 </a>
 </li>
