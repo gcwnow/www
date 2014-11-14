@@ -904,6 +904,11 @@ ul.gallery.resellers {
     font-style: italic;
 }
 
+.small_italic {
+    font-size: smaller;
+    font-style: italic;
+}
+
 .circle_small {
     width: 20px;
     border-radius: 50%;

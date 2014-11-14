@@ -23,12 +23,18 @@ if(isset($_GET['id'])) {
         include "articles/2014-08-05_featured_game_tile_world.php";
     } elseif($product_id == 7) {
         include "articles/2014-08-17_guest_column_the_last_mission_remake.php";
+    } elseif($product_id == 8) {
+        include "articles/2014-11-11_game_release_wetspot2.php";
+    } elseif($product_id == 9) {
+        include "articles/2014-11-11_guest_column_rrootage.php";
     } else {
         echo 'Page does not exist.';
     }
 
 } else {
     echo '<h1>News</h1>
+2014-11-11 - <a href="news.php?id=9">Guest Column - rRootage</a><br>
+2014-11-11 - <a href="news.php?id=8">Game Release - Wetspot 2</a><br>
 2014-08-17 - <a href="news.php?id=7">Guest Column - Making of \'The Last Mission\' remake</a><br>
 2014-08-05 - <a href="news.php?id=6">Featured Game - Tile World</a><br>
 2014-07-04 - <a href="news.php?id=5">Game Release - Xump</a><br>
