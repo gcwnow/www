@@ -27,12 +27,15 @@ if(isset($_GET['id'])) {
         include "articles/2014-11-11_game_release_wetspot2.php";
     } elseif($product_id == 9) {
         include "articles/2014-11-11_guest_column_rrootage.php";
+    } elseif($product_id == 10) {
+        include "articles/2014-11-18_game_release_enigma.php";
     } else {
         echo 'Page does not exist.';
     }
 
 } else {
     echo '<h1>News</h1>
+2014-11-18 - <a href="news.php?id=10">Game Release - Enigma</a><br>
 2014-11-11 - <a href="news.php?id=9">Guest Column - rRootage</a><br>
 2014-11-11 - <a href="news.php?id=8">Game Release - Wetspot 2</a><br>
 2014-08-17 - <a href="news.php?id=7">Guest Column - Making of \'The Last Mission\' remake</a><br>
