@@ -363,7 +363,7 @@ blockquote.block_style {
     padding: 10px;
     margin: 0;
     border-radius: 0 0 5px 5px; /* Apply border radius both the container and the anchor and anchor events. */
-    /* Fallback for web browsers that doesn't support RGBa */
+    /* Fallback for web browsers that don't support RGBa */
     background: rgb(54, 54, 54) transparent;
     /* RGBa with 0.8 opacity */
     background: rgba(54, 54, 54, 0.8);
@@ -381,7 +381,7 @@ blockquote.block_style {
 }
 
 .tile_box_text a:hover {
-    /* Fallback for web browsers that doesn't support RGBa */
+    /* Fallback for web browsers that don't support RGBa */
     background: rgb(114, 114, 114) transparent;
     /* RGBa with 0.8 opacity */
     background: rgba(114, 114, 114, 0.8);
@@ -778,7 +778,7 @@ ul.gallery.resellers {
     right: 0;
     padding: 10px;
     margin: 0;
-    /* Fallback for web browsers that doesn't support RGBa */
+    /* Fallback for web browsers that don't support RGBa */
     background: rgb(54, 54, 54) transparent;
     /* RGBa with 0.8 opacity */
     background: rgba(54, 54, 54, 0.8);
