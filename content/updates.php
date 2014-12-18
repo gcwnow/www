@@ -13,7 +13,7 @@ include "includes/header.php";
 <dt>Older than October 2013:</dt>
 <dd>Update to the October 2013 firmware first, then read on below.
 <dt>October 2013: (2013-10-04)</dt>
-<dd>Install the <a href="files/gcw0-anti-corruption-update-2014-05-05.opk">a special anti-corruption mini-update</a> to fix a data corruption issue that can prevent the full update from succeeding. After that, install the 2014-08-20 update.</dd>
+<dd>Install the <a href="files/gcw0-anti-corruption-update-2014-05-05.opk">special anti-corruption mini-update</a> to fix a data corruption issue that can prevent the full update from succeeding. After that, install the 2014-05-05 update and finally the 2014-08-20 update.</dd>
 <dt>May 2014: (2014-05-05)</dt>
 <dd>You can install the 2014-08-20 update right away.
 </dl>
