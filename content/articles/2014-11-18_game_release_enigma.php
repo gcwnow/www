@@ -21,11 +21,7 @@
 <li><a href="images/articles/enigma_pic02.jpg"><img class="small" src="images/articles/enigma_pic02.jpg"></a><p>Oxyd for PC</p></li>
 </ul>
 
-<p>Meinolf Schneider followed up the success of Oxyd with several sequels that supported a range of platforms such as Amiga, DOS, Windows, Macintosh, and even NeXT. There was <span class="
-text_italic">Oxyd 2</span> in 1991, <span class="
-text_italic">Oxyd Magnum</span> in 1993, and eventually the more modern-looking version of Oxyd 2 in 1995, called <span class="
-text_italic">Per.Oxyd</span>, and, finally, <span class="
-text_italic">Oxyd Extra</span> in 1996. The later versions of the game allowed the two-player levels to be played by just one person, by switching off the player's control of the two differently-colored marbles. Enigma also supports this, opening up a whole new selection of levels for the single player.</p> 
+<p>Meinolf Schneider followed up the success of Oxyd with several sequels that supported a range of platforms such as Amiga, DOS, Windows, Macintosh, and even NeXT. There was <span class="text_italic">Oxyd 2</span> in 1991, <span class="text_italic">Oxyd Magnum</span> in 1993, and eventually the more modern-looking version of Oxyd 2 in 1995, called <span class="text_italic">Per.Oxyd</span>, and, finally, <span class="text_italic">Oxyd Extra</span> in 1996. The later versions of the game allowed the two-player levels to be played by just one person, by switching off the player's control of the two differently-colored marbles. Enigma also supports this, opening up a whole new selection of levels for the single player.</p> 
 
 <ul class="gallery2" style="width: 660px;">
 <li><a href="images/articles/enigma_pic04.jpg"><img class="small" src="images/articles/enigma_pic04.jpg"></a><p>Oxyd Magnum for PC</p></li>
