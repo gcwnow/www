@@ -33,7 +33,7 @@ include "includes/header.php";
 </li>
 
 <li>
-<a href="https://www.dragonbox.de/en/32-gcw-zero/">
+<a href="https://www.dragonbox.de/en/84-gcw-zero/">
 <span class="bgimage" style="background-image: url(images/resellers/dragonbox.jpg);"></span>
 <span class="label">DragonBox (Europe)</span>
 </a>
