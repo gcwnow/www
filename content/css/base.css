@@ -968,3 +968,10 @@ ul.gallery.resellers {
     font-size: smaller;
 }
 
+.inline_code {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}
