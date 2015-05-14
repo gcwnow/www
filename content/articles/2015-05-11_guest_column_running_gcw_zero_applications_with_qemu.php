@@ -33,14 +33,14 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 
 <h2>Bugs and missing features</h2>
 
-<p>The biggest missing feature is the lack of GPU emulation (Vivante GC860), so there's no OpenGL ES, SDL2 or Love2D. Applications that rely on OpenGL ES or SDL2 will not run, because these libraries are omitted in rootfs used for this package. Luckily, the majority of applications still use software rendering.</p>
-<p>Malta board uses cirrusfb video driver which does not support vertical sync, nor double or triple buffering. Applications that rely on these features will still run fine, though frame rates may differ from what you expect to have on real hardware. Note that QEMU performs double-buffering itself which means you would hardly notice any tearing or flickering.</p>
+<p>The biggest missing feature is the lack of GPU emulation (Vivante GC860), so there's no OpenGL ES, SDL2 or Love2D. Applications that rely on OpenGL ES or SDL2 will not run, because these libraries are omitted from the rootfs used in this package. Luckily, the majority of the applications still use software rendering.</p>
+<p>Malta board uses the cirrusfb video driver which does not support vertical sync, nor double or triple buffering. Applications that rely on these features will still run fine, though frame rates may differ from what you expect to have on real hardware. Note that QEMU performs double-buffering itself which means you would hardly notice any tearing or flickering.</p>
 <p>Moreover, there's no IPU (hardware up/downscaling), but it's not really needed. If an application requests a resolution that is different from 320x240, the cirrusfb video driver sets it as requested with no resizing. However, QEMU itself has its own resizing mechanism, so you can stretch your window to whatever size you desire thus simulating IPU behavior.</p>
 <p>The other missing hardware include the analog joystick, g-sensor and rumble motor.</p>
 <p>As for the network, there's no Wi-Fi (wlan) and ethernet via USB (usb0) but you have eth0 instead. Debugging could be done via serial port output which is redirected to console on Linux and to PuTTY or similar programs on Windows.</p>
 <p>Another missing feature that should be named is the lack of <a href="http://wiki.gcw-zero.com/MXU">MXU</a> instructions which is an extension specific to Ingenic JZ47xx SoCs. QEMU emulates a generic MIPS 24Kc cpu which is mips32r2 with hardware float. Luckily for us, very few programs (if any) use MXU.</p>
-<p>As for the sound, AC97 audio driver strictly follows the rule to have sample buffer of power of 2 (256, 512, 1024 etc) and if SDL (or any other library) requests arbitrary size, it just returns error. This is somewhat different from GCW Zero, which hardware doesn't imply such restriction and SDL can use any sample buffer size. This concerns Minislug, for example, which tries to set up sound buffer of 1088 samples which works on real device and fails in QEMU.</p>
-<p>However, for true cross-platform compatibility all SDL applications must use a power of 2 for sample buffer. Most applications follow the rule and still run fine.</p>
+<p>As for the sound, the AC97 audio driver strictly follows the rule to have a sample buffer of power of 2 (256, 512, 1024 etc) and if SDL (or any other library) requests an arbitrary size, it just returns an error. This is somewhat different from the GCW Zero, where the hardware doesn't apply such restrictions and SDL can use any sample buffer size. This concerns Minislug, for example, which tries to set up sound buffer of 1088 samples which works on a real device and fails in QEMU.</p>
+<p>However, for true cross-platform compatibility all SDL applications must use a power of 2 for the sample buffer. Most applications follow the rule and still run fine.</p>
 <p>Note that after boot the sound is muted. To enable it go to Settings -> Sound Mixer, unmute all channels and raise volume to the maximum.</p>
 
 <h2>Running QEMU</h2>
@@ -56,7 +56,7 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
   <a class="image_center_a" href="https://www.youtube.com/watch?v=GFS8WHJksSI" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/GFS8WHJksSI/0.jpg);"></a>
 </object>
 
-<p>Unpack the provided archive to the same directory and click <code class="inline_code">run-gcw0.bat</code> for Windows or <code class="inline_code">run-gcw0.sh</code> for Linux (don't forget to make it executable with <code class="inline_code">chmod +x run-gcw0.sh</code> before running). After short period of time you'll see gmenu2x running inside QEMU and you can begin testing some pre-installed games.</p>
+<p>Unpack the provided archive to the same directory and click <code class="inline_code">run-gcw0.bat</code> for Windows or <code class="inline_code">run-gcw0.sh</code> for Linux (don't forget to make it executable with <code class="inline_code">chmod +x run-gcw0.sh</code> before running). After a short period of time you'll see gmenu2x running inside QEMU and you can begin testing some pre-installed games.</p>
 
 <ul class="gallery2" style="width: 676px;">
 <li><img src="images/articles/qemu-gcw0-02.png"><p style="max-width: 338;">System Info overview.</p></li>
@@ -89,7 +89,7 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 <h2>Network and adding more .OPK packages via SFTP</h2>
 
 <p>Note: if your host system is Windows, please refer to <a href="http://prizma.bmstu.ru/~exmortis/posts/2015-05-02-gcw0-qemu.html">this</a> article to properly set up PuTTY to catch serial output from QEMU. Without it you can pretty much do nothing.</p>
-<p>If you are on Linux just run run-gcw0.sh from console and you'll get kernel booting log directly in your console which should end with a command prompt.</p>
+<p>On Linux just run <code class="inline_code">run-gcw0.sh</code> from the console and you'll see the kernel boot log directly appear in your console which should end with a command prompt.</p>
 
 <ul class="gallery2" style="width: 338px;">
 <li><a href="images/articles/qemu-gcw0-07.png"><img style="width: 328px" src="images/articles/qemu-gcw0-07.png"></a>
@@ -104,7 +104,7 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 <p style="max-width: 338;">How the network is seen by Network Settings</p></li>
 </ul>
 
-<p>Note that connecting from host to guest is not possible with current QEMU settings. It is possible to set up tun/tap interface and bridge but this is fairly complex and isn't part of this article.</p>
+<p>Note that connecting from host to guest is not possible with current QEMU settings. It is possible to set up a tun/tap interface and bridge but this is fairly complex and isn't part of this article.</p>
 
 <h2>More user-friendly way to add .OPK packages via virtual FAT disk</h2>
 
