@@ -10,6 +10,15 @@ include "includes/header.php";
 <p>This page is mainly intended for resellers who flash the units before they go to customers, but it might be useful as well for end users who have a non-booting unit and want to attempt to restore it themselves.</p>
 <p><b>NOTE: This is not how you should update your GCW Zero; the flashing procedure will wipe all data!</b> If you want to update your firmware, follow the instructions on <a href="updates">this page</a> instead.</p>
 
+<h2>2015-07-23</h2>
+<p>All images updated: boot loader from July 2015, system image contains OpenDingux 2014-08-20, data image contains applications from July 2015.</p>
+<ul>
+<li><a href="files/flash/mbr.2015-07-23.bin">master boot record</a></li>
+<li>boot loader <a href="files/flash/ubiboot-v11_ddr2_256mb.2015-07-23.bin">for prototype (256MB) units</a> or <a href="files/flash/ubiboot-v20_mddr_512mb.2015-07-23.bin">for production (512MB) units</a><br>(resellers should use the latter)</li>
+<li><a href="files/flash/system.2015-07-23.bin">system partition</a></li>
+<li><a href="files/flash/data.2015-07-23.bin">data partition</a></li>
+</ul>
+
 <h2>2013-11-03</h2>
 <p>New data image with Griffon Legend added and Stringrolled updated:</p>
 <ul>
