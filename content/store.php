@@ -47,6 +47,13 @@ include "includes/header.php";
 </li>
 
 <li>
+<a href="http://www.extremehardware.co.uk/GCW_Zero_Open_Source_Handheld_Gaming_Console/p3267181_14213717.aspx">
+<span class="bgimage" style="background-image: url(images/resellers/extremehardware_logo_small.png);"></span>
+<span class="label">Extreme Hardware (United Kingdom)</span>
+</a>
+</li>
+
+<li>
 <a href="http://otakutoyz.blogspot.com/2014/06/purewicked.html">
 <span class="bgimage" style="background-image: url(images/resellers/purewickedau.png);"></span>
 <span class="label">PureWicked.AU (Australia)</span>
