@@ -6,12 +6,12 @@
 <p>Our latest release is Enigma, a popular open-source Linux puzzle game centered around moving marbles on-screen, driven by a great physics engine. Be one of the first to play this awesome game using the GCW Zero's g-sensor! Based on the classic Atari ST game, Oxyd, Engima expands even further on its many ideas, even supporting puzzle concepts such as <a href=https://en.wikipedia.org/wiki/Sokoban>sokoban</a> and <a href=https://en.wikipedia.org/wiki/Pentomino>pentominos</a>. Enigma comes complete with over 600 original community-created levels. If that isn't enough, you can also install the community-created level packs containing over 250 Oxyd-inspired levels. To make it even better, owners of the original Oxyd series of games can install the original games' data files and play their over-350 original levels, as Enigma supports loading them directly. Let's have a closer look at what Enigma is all about...</p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/VQ9GFH0Vduo"
+        data="https://www.youtube.com/v/Fb8UU5RLaD8"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/VQ9GFH0Vduo"></param>
+         value="https://www.youtube.com/v/Fb8UU5RLaD8"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=VQ9GFH0Vduo" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/VQ9GFH0Vduo/0.jpg);"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=Fb8UU5RLaD8" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/Fb8UU5RLaD8/0.jpg);"></a>
 </object>
 
 <p>It all started in 1989 when Meinolf Schneider, a German programmer, released his unique game, <span class="text_italic">Esprit</span>, for the Atari ST, followed quickly in 1990 with the very popular <a class="text_italic" href=https://en.wikipedia.org/wiki/Oxyd>Oxyd</a>. These games introduced the core concepts Enigma later adopted: moving a marble around physics-driven "landscapes," attempting to touch and match different "Oxyd-stones" together to complete a level. Oxyd contained over 100 levels, had what was then impressive sound support, and used the Atari ST's high-resolution monochrome video mode. It featured over a hundred types of tiles and objects. Some levels allowed for two players to cooperate, using a MIDI cable to link two computers together. Its shareware-based distribution method, combined with its quality level design and unique concepts, quickly made it a classic amongst logic puzzle lovers.</p> 

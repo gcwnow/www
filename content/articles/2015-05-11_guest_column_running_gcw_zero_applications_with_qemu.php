@@ -48,12 +48,12 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 <p>If you are on Windows, download QEMU from <a href="http://lassauge.free.fr/qemu/">here</a> and unpack to the desired location. If you are on Linux install QEMU from your distro repository. At the time of writing the last official version of QEMU is 2.2.0 but no harm is done if an earlier version is used, at least 1.3.1 is confirmed to work.</p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/GFS8WHJksSI"
+        data="https://www.youtube.com/v/nx5S_1sudWc"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/GFS8WHJksSI"></param>
+         value="https://www.youtube.com/v/nx5S_1sudWc"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=GFS8WHJksSI" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/GFS8WHJksSI/0.jpg);"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=nx5S_1sudWc" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/nx5S_1sudWc/0.jpg);"></a>
 </object>
 
 <p>Unpack the provided archive to the same directory and click <code class="inline_code">run-gcw0.bat</code> for Windows or <code class="inline_code">run-gcw0.sh</code> for Linux (don't forget to make it executable with <code class="inline_code">chmod +x run-gcw0.sh</code> before running). After a short period of time you'll see gmenu2x running inside QEMU and you can begin testing some pre-installed games.</p>

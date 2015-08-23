@@ -6,12 +6,12 @@
 <p>The Last Mission<a href=#1>[1]</a>, a maze shooter game, was originally released by Spanish company OperaSoft in 1987 on the following platforms: MSX1, MSX2, Amstrad CPC, ZX-Spectrum and 8086/88 PC. Due to varying hardware capabilities, all versions of the game differ in terms of graphics and sound. The most advanced of these ports was the MSX2 version, which featured rich-colored graphics and PSG sound supplied by the General Instruments AY-3-8910<a href=#2>[2]</a>.</p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/aOZ5Mxqx3HE"
+        data="https://www.youtube.com/v/Uu2VlFzZkXE"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/aOZ5Mxqx3HE"></param>
+         value="https://www.youtube.com/v/Uu2VlFzZkXE"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=aOZ5Mxqx3HE" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/aOZ5Mxqx3HE/0.jpg');"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=Uu2VlFzZkXE" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/Uu2VlFzZkXE/0.jpg');"></a>
 </object>
 
 <h2>First attempt</h2>

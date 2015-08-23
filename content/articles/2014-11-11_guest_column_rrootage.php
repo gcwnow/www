@@ -8,12 +8,12 @@
 <p>If you're a fan of freeware shoot-'em-ups, or 'SHMUPs' for short, you've more than likely heard of rRootage. Released for free with open source code for Windows in 2003, it was created by the multi-talented and prolific programmer, <a href="http://www.asahi-net.or.jp/~cs8k-cyu/">Kenta Cho</a>, of Japan, also known as 'ABA Games'. It built on the great success of his shooter game <a href="http://www.asahi-net.or.jp/~cs8k-cyu/windows/noiz2sa_e.html">Noiz2sa</a>, released a year prior. Both these games and many of his later titles feature a distinctive minimalistic vector-style of graphics that Kenta Cho says was primarly inspired by a <a href="https://en.wikipedia.org/wiki/Rez">favorite Playstation 2 game of his, Rez</a>.</p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/9rznKpou85o"
+        data="https://www.youtube.com/v/76gcmEjaNOU"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/9rznKpou85o"></param>
+         value="https://www.youtube.com/v/76gcmEjaNOU"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=9rznKpou85o" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/9rznKpou85o/0.jpg');"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=76gcmEjaNOU" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/76gcmEjaNOU/0.jpg');"></a>
 </object>
 
 <p>rRootage features randomly-generated bullet barrage patterns defined through his <a href="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml/index_e.html">bulletML library</a>. BulletML was initially used for Noiz2sa, which was <a href="http://boards.dingoonity.org/gcw-releases/noiz2sa-v1-0/">ported to the GCW Zero by alekmaul</a>. Continuing with BulletML, rRootage's gameplay is a bit different: you control the same ship as before, but your enemy is now one large boss at the top of the screen that fires increasingly difficult patterns of bullets through which you have to dodge. You are armed with a laser that can be turned off in order to move faster while dodging bullets. The game features forty individual levels, and each level requires you to defeat five bosses in succession. If forty levels is not enough for you, there are four different modes of gameplay, essentially making it 160 levels for the player to complete. Levels can be completed in any order.</p>

@@ -11,12 +11,12 @@ in 1997, Dmitry Smagin created a full re-implementation of the Wetspot 2 game en
 <p>Wetspot 2 can be freely downloaded from the GCW software repository<a href=#4>[4]</a></p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/LR2m7qPOkzE"
+        data="https://www.youtube.com/v/dflQRZtqahY"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/LR2m7qPOkzE"></param>
+         value="https://www.youtube.com/v/dflQRZtqahY"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=LR2m7qPOkzE" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/LR2m7qPOkzE/0.jpg');"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=dflQRZtqahY" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/dflQRZtqahY/0.jpg');"></a>
 </object>
 
 <ul class="gallery2" style="width: 660px;">
