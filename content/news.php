@@ -35,6 +35,8 @@ if(isset($_GET['id'])) {
         include "articles/2014-12-24_game_release_gianas_return.php";
     } elseif($product_id == 13) {
         include "articles/2015-05-11_guest_column_running_gcw_zero_applications_with_qemu.php";
+    } elseif($product_id == 14) {
+        include "articles/2015-09-21_guest_column_making_of_hase.php";
     } else {
         echo 'Page does not exist.';
     }
@@ -45,6 +47,7 @@ if(isset($_GET['id'])) {
 */
 } else {
     echo '<h1>News</h1>
+2015-09-21 - <a href="news.php?id=14">Guest Column - Making of Hase</a><br>
 2015-05-11 - <a href="news.php?id=13">Guest Column - Running GCW Zero applications with QEMU</a><br>
 2014-12-24 - <a href="news.php?id=12">Game Release - Giana\'s Return</a><br>
 2014-12-24 - <a href="news.php?id=11">Game Release - Neverball & Neverputt</a><br>

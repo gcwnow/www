@@ -42,8 +42,8 @@
 </ul>
 
 <p>
-<a name="1"></a>[1] <a href="http://retroguru.com/">http://retroguru.com/</a><br>
-<a name="2"></a>[2] <a href="http://www.gianas-return.de/">http://www.gianas-return.de/</a><br>
+<a name="1"></a>[1] <a href="http://retroguru.com">http://retroguru.com</a><br>
+<a name="2"></a>[2] <a href="http://www.gianas-return.de">http://www.gianas-return.de</a><br>
 <a name="3"></a>[3] <a href="http://repo.gcw-zero.com">http://repo.gcw-zero.com</a>
 </p>
 

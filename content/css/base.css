@@ -862,7 +862,7 @@ ul.gallery.resellers {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.gallery2 img.small {
+.gallery2 .small {
     max-width: 320px;
 }
 
@@ -943,6 +943,15 @@ ul.gallery.resellers {
 .center_container {
     display: block;
     margin: 10px auto;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    /*border-radius: 5px; Disabled due to Google Chrome radius bug in objects*/
+    background-color: black;
+    overflow: none;
+}
+
+.center_container_description {
+    display: block;
+    margin: 0;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
     /*border-radius: 5px; Disabled due to Google Chrome radius bug in objects*/
     background-color: black;

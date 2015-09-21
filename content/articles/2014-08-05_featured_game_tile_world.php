@@ -6,12 +6,12 @@
 <p>This week, we're discussing the GCW Zero port of Tile World, an engine-compatible clone of the classic puzzle game Chip's Challenge. The basic premise is that the player must find all the chips in a level needed to complete it. Along the way, the player collects keys and different colored shoes which help to traverse different kinds of terrain. There is also an assortment of different enemies, such as those that blindly patrol along walls, and those that seek out the player. All this, and more, are to be discovered in this faithful continuation of the puzzle game classic.</p>
 
 <object width="650" height="400" class="center_container"
-        data="https://www.youtube.com/v/gHxScwJOenw"
+        data="https://www.youtube.com/v/WgtqQmloaLY"
         type="application/x-shockwave-flash">
   <param name="movie"
-         value="https://www.youtube.com/v/gHxScwJOenw"></param>
+         value="https://www.youtube.com/v/WgtqQmloaLY"></param>
   <param name="allowScriptAccess" value="always"></param>
-  <a class="image_center_a" href="https://www.youtube.com/watch?v=gHxScwJOenw" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/gHxScwJOenw/0.jpg');"></a>
+  <a class="image_center_a" href="https://www.youtube.com/watch?v=WgtqQmloaLY" title="Watch video on YouTube" style="background-image: url('http://img.youtube.com/vi/WgtqQmloaLY/0.jpg');"></a>
 </object>
 
 <p>Chip's Challenge was an early Windows game included in Microsoft Entertainment Pack collections, where it rose to prominence. Chip's Challenge did not start out on Windows, but it started off on the Atari Lynx, which was a first in the handheld market for having a color screen and good graphics but ultimately failed for its lack of third-party developer support and high battery costs. <a href=#1>[1]</a></p>
