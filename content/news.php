@@ -37,16 +37,15 @@ if(isset($_GET['id'])) {
         include "articles/2015-05-11_guest_column_running_gcw_zero_applications_with_qemu.php";
     } elseif($product_id == 14) {
         include "articles/2015-09-21_guest_column_making_of_hase.php";
+    } elseif($product_id == 15) {
+        include "articles/2015-11-23_game_release_fruity.php";
     } else {
         echo 'Page does not exist.';
     }
-/*
-    } elseif($product_id == 11) {
-        include "articles/2014-11-25_game_release_kens_labyrinth.php";
-2014-11-25 - <a href="news.php?id=11">Game Release - Ken\'s Labyrinth</a><br>
-*/
+
 } else {
     echo '<h1>News</h1>
+2015-11-23 - <a href="news.php?id=15">Game Release - Fruit\'Y</a><br>
 2015-09-21 - <a href="news.php?id=14">Guest Column - Making of Hase</a><br>
 2015-05-11 - <a href="news.php?id=13">Guest Column - Running GCW Zero applications with QEMU</a><br>
 2014-12-24 - <a href="news.php?id=12">Game Release - Giana\'s Return</a><br>
