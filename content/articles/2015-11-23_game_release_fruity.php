@@ -6,7 +6,7 @@
 
 <p>Another title by the Retroguru team debuts on GCW Zero, through the hands of porter Zear. This time they serve you a puzzle game with 120 levels, beautiful, hand drawn pixel art and catchy Amiga-style chiptunes!</p>
 
-<p>Fruit'Y is a puzzle game heavily inspired by the Kaiko classic "Gem'X", known from the Commodore Amiga 500, Commodore 64 and Atari ST.</p>
+<p><a href="http://www.retroguru.com/fruity/">Fruit'Y</a> is a puzzle game heavily inspired by the Kaiko classic "Gem'X", known from the Commodore Amiga 500, Commodore 64 and Atari ST.</p>
 
 <ul class="gallery2" style="width: 660px;">
 <li>
