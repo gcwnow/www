@@ -3,13 +3,13 @@
 </span>
 
 <h2>Redesigned ABXY and DPAD</h2>
-<p>We are really excited to be announcing new, completely redesigned DPAD and ABXY buttons, available right now in numerous different colors on our <a href="http://www.shapeways.com/gcwstore" target=“_blank”>Official GCW Store Page</a>.</p>
+<p>We are really excited to be announcing new, completely redesigned DPAD and ABXY buttons, available right now in numerous different colors on our <a href="https://www.shapeways.com/shops/gcw-zero" target=“_blank”>Official GCW Store Page</a>.</p>
 
 <p>Over the last few years, a lot of behind the scenes research and development has been done to improve the buttons of the GCW-Zero. Our Industrial Design team has obsessed over the smallest details in design of the buttons and tested many different prototypes to give them a complete redesign and make sure they are the best they can be.</p>
 
 <p>It took countless 3D model revisions, purchases of 3D printed test versions, and button installations to get these designs right but all the time and money invested in development was totally worth it to get these parts to be the best they can be.</p>
 
-<p>We have created a store at <a href="http://www.shapeways.com/gcwstore" target=“_blank”>Shapeways</a> to show you what we've been working on.</p>
+<p>We have created a store at <a href="https://www.shapeways.com/shops/gcw-zero" target=“_blank”>Shapeways</a> to show you what we've been working on.</p>
 
 <div id="full_photo">
     <div class="photo1" style="opacity: 1; z-index: 2;">
@@ -95,7 +95,7 @@
 
 <h2>Check Out Our New Store!</h2>
 
-<p>So to wrap things up, we're really excited to be announcing that the new, completely redesigned DPAD and ABXY buttons are available right now in numerous different colors on our <a href="http://www.shapeways.com/gcwstore" target=“_blank”>Official GCW Store Page</a>. We also came up with simple <a href="images/articles/16/ColorPaletteBlack2.png" target=“_blank”>black</a> and <a href="images/articles/16/ColorPaletteWhite2.png" target=“_blank”>white</a> template images with some of the actual colors from Shapeways which allows you to experiment and try out different button color options in your GCW-Zero in your favorite picture editor. Please share your awesome custom creations with us on the <a href="http://boards.dingoonity.org/index.php#c10" target=“_blank”>Dingoonity</a> forums, <a href="https://twitter.com/gcwzero" target=“_blank”>Twitter @gcwzero</a>, and our <a href="https://www.facebook.com/pages/GCW-Zero/518785154808241" target=“_blank”>Facebook</a> page! We want to see who comes up with the coolest design!</p>
+<p>So to wrap things up, we're really excited to be announcing that the new, completely redesigned DPAD and ABXY buttons are available right now in numerous different colors on our <a href="https://www.shapeways.com/shops/gcw-zero" target=“_blank”>Official GCW Store Page</a>. We also came up with simple <a href="images/articles/16/ColorPaletteBlack2.png" target=“_blank”>black</a> and <a href="images/articles/16/ColorPaletteWhite2.png" target=“_blank”>white</a> template images with some of the actual colors from Shapeways which allows you to experiment and try out different button color options in your GCW-Zero in your favorite picture editor. Please share your awesome custom creations with us on the <a href="http://boards.dingoonity.org/index.php#c10" target=“_blank”>Dingoonity</a> forums, <a href="https://twitter.com/gcwzero" target=“_blank”>Twitter @gcwzero</a>, and our <a href="https://www.facebook.com/pages/GCW-Zero/518785154808241" target=“_blank”>Facebook</a> page! We want to see who comes up with the coolest design!</p>
 
 <p>Our 3D printing store is a great way for us to keep researching and developing new hardware designs and get them out to you as quickly as possible. Your interest in future developments keeps us going!</p>
 
