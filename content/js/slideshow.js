@@ -4,13 +4,24 @@ var intervalID;
 var autoPlay;
 var img;
 
-/* Append value to elements from an array. */
-function appendValue(value, array) {
-    for(var i = 0; i < array.length; i++) {
-        array[i] = value + array[i];
+/* Prepend value to elements from an array. */
+function prependValue(value, array1) {
+    var array2 = [];
+    for(var i = 0; i < array1.length; i++) {
+        array2[i] = value + array1[i];
     }
-    return array;
+    return array2;
 }
+
+/* Append value to elements from an array. */
+function appendValue(array1, value) {
+    var array2 = [];
+    for(var i = 0; i < array1.length; i++) {
+        array2[i] = array1[i] + value;
+    }
+    return array2;
+}
+
 
 /* Preload (cache) images. */
 function preload(img_src) {
@@ -210,4 +221,127 @@ function loadBaseEvents() {
     $('#slideshow').on('click', function() {
         nextImage();
     });
+}
+
+/* Return scrollbar height */
+function getScrollSizes() {
+    // call after document is finished loading
+    var el = document.createElement('div');
+    el.style.visibility = 'hidden';
+    el.style.overflow = 'scroll';
+    document.body.appendChild(el);
+    //var w = el.offsetWidth-  el.clientWidth;
+    var h = el.offsetHeight - el.clientHeight;
+    document.body.removeChild(el);
+    return h;
+}
+
+function getCSSInt(elem, attribute) {
+    return parseInt($(elem).css(attribute), 10);
+}
+
+/* Switch to an image specified by an img array number. */
+function numberImageThumb(number) {
+    img.current = number % img.length; // Image number should be in array range.
+    if(autoPlay == 1) {
+        clearInterval(intervalID);
+        switchImageThumb();
+        intervalID = setInterval(function() {nextImageSimpleThumb()}, interval);
+    } else {
+        switchImageThumb();
+    }
+}
+
+/* Go to the next image in the img array. */
+function nextImageSimpleThumb() {
+    img.current = (img.current + 1) % img.length; // Image number should be in array range.
+    switchImageThumb();
+}
+
+/* Execute crossfade of images with a set interval. */
+function autoSwitchThumb() {
+    autoPlay = 1;
+    intervalID = setInterval(function() {nextImageSimpleThumb()}, interval);
+}
+
+/* Crossfade between images. Using two buffers and alternating between them. */
+function switchImageThumb() {
+    if($('.photo2').css("z-index") == 1) {
+        $('.photo2 img').prop("src", img_medium[img.current]);
+        $('.photo2 .label').get(0).innerHTML = img_description[img.current];
+        $('.photo1').animate({opacity: 0}, 800,
+        function() {
+            $('.photo2').css("z-index", 2);
+            $(this).css("z-index", 1);
+            $(this).css("opacity", 1);
+        });
+    } else {
+        $('.photo1 img').prop("src", img_medium[img.current]);
+        $('.photo1 .label').get(0).innerHTML = img_description[img.current];
+        $('.photo2').animate({opacity: 0}, 800,
+        function() {
+            $('.photo1').css("z-index", 2);
+            $(this).css('z-index', 1);
+            $(this).css('opacity', 1);
+        });
+    }
+    
+    //var leftPosition = $('.thumb').scrollLeft();
+    var remainder = (img.current + 1) % 5;
+    var modulo = (img.current + 1 - remainder) / 5;
+    if(img.current == 0) {
+        $('.thumb').animate({
+        scrollLeft: 0
+        }, 800);
+    } else if(remainder == 1) {
+        // If the remainder is zero, move the gallery.
+        $('.thumb').animate({
+        //scrollLeft: leftPosition + (640 * modulo)
+        scrollLeft: 640 * modulo
+        }, 800);
+    }
+    
+    // Reset thumbnail selection.
+    $('.thumb .gallery2 li a').removeClass('selected');
+    $('.thumb .gallery2 li').eq(img.current).children("a").addClass('selected');
+}
+
+function thumbGallery(img, scrollbar_height) {
+    // Generate thumbnail listing and select first thumbnail.
+    var img_thumb = appendValue(img, "_thumb.png");
+    var thumb = $('.thumb .gallery2');
+    var thumbContent = "";
+    for(var i = 0; i < img.length; i++) {
+        thumbContent += '<li><a><img src="' + img_thumb[i] + '"></a></li>\n';
+    }
+    var thumb_width = (img.length * 128) + 5;
+    var thumb_height = getCSSInt('.thumb', 'height') + getScrollSizes();
+    $('.thumb').css('height', thumb_height);
+    thumb.get(0).innerHTML = thumbContent;
+    $('.thumb .gallery2').css('width', thumb_width);
+    $('.thumb .gallery2 li a').eq(0).addClass('selected');
+    
+    /* Bind onclick to thumbnails to switch to the specified image. */
+    $('.thumb .gallery2 li').on('click', function() {
+        var index = $(this).index();
+        // Check if transition needs to happen (no transition for the same image).
+        // TODO: Doesn't appear to set img.current for the frontpage.
+        if(img.current != index){
+            img.current = index;
+            numberImageThumb(index);
+        }
+    });
+    
+    /* Disable the interval on mouse enter, resume when moving the cursor out of the thumbnail gallery. */
+    $(".thumb").on({
+        mouseenter: function () {
+            clearInterval(intervalID);
+        },
+        mouseleave: function () {
+            clearInterval(intervalID);
+            intervalID = setInterval(function() {nextImageSimpleThumb()}, interval);
+        }
+    });
+
+    autoSwitchThumb();
 }

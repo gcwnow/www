@@ -792,6 +792,7 @@ ul.gallery.resellers {
 /* ----- Gallery with description ----- */
 
 .gallery2 {
+    position: relative;
     padding: 0;
     margin: 0px auto;
     border: 0;
@@ -808,6 +809,56 @@ ul.gallery.resellers {
     border-radius: 5px;
     background: transparent;
 }
+
+#full_photo {
+    position: relative;
+    overflow: hidden;
+    width: 650px;
+    height: 488px;
+    padding: 0;
+    margin: 10px auto;
+    border: 0;
+    background: rgb(198, 196, 199);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#full_photo span.label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    /* Fallback for web browsers that don't support RGBa */
+    background: rgb(54, 54, 54) transparent;
+    /* RGBa with 0.8 opacity */
+    background: rgba(54, 54, 54, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc363636, endColorstr=#cc363636)";
+    border-radius: 0 0 5px 5px;
+}
+
+.photo1 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.photo2 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+}
+
 
 /* Per image description */
 .gallery2 li p {
@@ -848,9 +899,37 @@ ul.gallery.resellers {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
+/*
+TODO: thumb Should be ID, instead of class. 
+Inheritance issue when changing to ID.
+*/
+
+.thumb {
+    width: 640px;
+    height: 99px;
+    overflow-x: scroll;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background: #959595;
+}
+
+.thumb .gallery2 {
+    left: 0px;
+}
+
+.thumb .gallery2 a {
+    opacity: 0.5;
+}
+
+.thumb .gallery2 a.selected {
+    opacity: 1;
+}
+
 .gallery2 a:hover {
     opacity: 0.8;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .gallery2 img {
