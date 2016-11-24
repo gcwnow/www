@@ -260,12 +260,14 @@ function nextImageSimpleThumb() {
 
 /* Execute crossfade of images with a set interval. */
 function autoSwitchThumb() {
+    //console.log(interval);
     autoPlay = 1;
     intervalID = setInterval(function() {nextImageSimpleThumb()}, interval);
 }
 
-/* Crossfade between images. Using two buffers and alternating between them. */
 function switchImageThumb() {
+    //console.log(img);
+    /* Crossfade between images. Using two buffers and alternating between them. */
     if($('.photo2').css("z-index") == 1) {
         $('.photo2 img').prop("src", img_medium[img.current]);
         $('.photo2 .label').get(0).innerHTML = img_description[img.current];
@@ -286,17 +288,17 @@ function switchImageThumb() {
         });
     }
     
-    //var leftPosition = $('.thumb').scrollLeft();
+    /* Animate thumbnail gallery */
     var remainder = (img.current + 1) % 5;
     var modulo = (img.current + 1 - remainder) / 5;
     if(img.current == 0) {
+        // If the current image is zero, scroll back to the left.
         $('.thumb').animate({
         scrollLeft: 0
         }, 800);
     } else if(remainder == 1) {
-        // If the remainder is zero, move the gallery.
+        // If the remainder is one, move the gallery.
         $('.thumb').animate({
-        //scrollLeft: leftPosition + (640 * modulo)
         scrollLeft: 640 * modulo
         }, 800);
     }
@@ -306,9 +308,10 @@ function switchImageThumb() {
     $('.thumb .gallery2 li').eq(img.current).children("a").addClass('selected');
 }
 
-function thumbGallery(img, scrollbar_height) {
+/* Build thumbnail gallery */
+function thumbGallery(img) {
     // Generate thumbnail listing and select first thumbnail.
-    var img_thumb = appendValue(img, "_thumb.png");
+    var img_thumb = appendValue(img, "_thumb." + img.file_format);
     var thumb = $('.thumb .gallery2');
     var thumbContent = "";
     for(var i = 0; i < img.length; i++) {
@@ -337,11 +340,34 @@ function thumbGallery(img, scrollbar_height) {
         mouseenter: function () {
             clearInterval(intervalID);
         },
-        mouseleave: function () {
+        mouseleave: function ($this) {
+            //if(($this).attr('clicked'))
+            console.log(($this));
             clearInterval(intervalID);
             intervalID = setInterval(function() {nextImageSimpleThumb()}, interval);
         }
     });
+}
 
+/* Build photo view */
+function photoView(img, img_description) {
+    /* Preload gallery */
+    img_medium = appendValue(img, "_medium." + img.file_format);
+    preload(img_medium);
+
+    /* Load two images to use as double buffering */
+    $(".photo1 img").prop("src", img_medium[0]);
+    $(".photo2 img").prop("src", img_medium[1]);
+    $(".photo1 .label").get(0).innerHTML = img_description[0];
+    $(".photo2 .label").get(0).innerHTML = img_description[1];
+}
+
+/* Generate photo view and thumbnail gallery. */
+function createGallery(img, img_description) {
+    /* Build photo view */
+    photoView(img, img_description);
+    /* Build thumbnail gallery */
+    thumbGallery(img);
+    /* Execute crossfade of images with a set interval. */
     autoSwitchThumb();
 }

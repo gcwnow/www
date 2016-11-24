@@ -810,7 +810,7 @@ ul.gallery.resellers {
     background: transparent;
 }
 
-#full_photo {
+#photo_view {
     position: relative;
     overflow: hidden;
     width: 650px;
@@ -823,7 +823,7 @@ ul.gallery.resellers {
     border-radius: 5px;
 }
 
-#full_photo span.label {
+#photo_view span.label {
     position: absolute;
     bottom: 0;
     left: 0;

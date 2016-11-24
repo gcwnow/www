@@ -45,32 +45,34 @@ onload = function() {
 }
 </script>
 ';
-} elseif($page == "news") {
+} elseif($page == "news" && $_GET["id"] == 16) {
     echo '<script type="text/javascript">
-onload = function() {
-    interval = 4000;
+onload = function() {  
     dir = "images/articles/16/";
+    file_format = "png";
+    interval = 4000;
     img = ["P1000380", "P1000381", "P1000382", "P1000383", "P1000385", "P1000386", "P1000388", "P1000389", "P1000390", "P1000376", "P1000377", "P1000378", "P1000379", "redcentered2", "redcentered", "P1000351", "P1000352", "P1000353", "P1000354", "P1000355", "P1000356", "P1000357", "P1000358", "P1000359", "P1000360", "P1000361", "P1000362", "P1000363", "P1000364", "P1000366", "P1000367", "P1000368", "P1000369", "P1000370", "P1000371", "P1000372", "P1000373", "P1000374", "P1000375"];
     img_description = ["Installed DPAD", "Installed ABXY Buttons Isometric View", "Installed DPAD Isometric View", "Installed DPAD Front View",  "Installed ABXY Buttons", "Installed ABXY Buttons Side Profile View", "Installed ABXY Buttons Front View", "Installed DPAD Bottom View", "Installed DPAD Top View", "Prototypes Collage View 1", "Prototypes Collage View 2", "Prototypes Collage View 3", "Prototypes Collage View 4", "Connected ABXY Buttons View 1", "Connected ABXY Buttons View 2", "New ABXY Button and DPAD", "DPAD Isometric View", "DPAD Front View", "DPAD Side View", "DPAD Back View", "DPAD Side Profile", "DPAD Isometric View", "DPAD Front Profile", "DPAD Side Front View", "ABXY Side Profile", "ABXY Side Profile Comparison", "ABXY Isometric Comparison", "ABXY Front Comparison", "ABXY Keying Tab Comparison", "DPAD Front Comparison", "DPAD Side Profile Comparison", "DPAD Back Profile Comparison", "DPAD Isometric Comparison", "Connected DPAD View 1", "Connected DPAD View 2", "Connected DPAD View 3", "Connected DPAD View 4", "Connected DPAD View 5", "Connected DPAD View 6"];
+
     img = prependValue(dir, img);
-    //img_large = appendValue(img, ".png");
-    img_medium = appendValue(img, "_medium.png");
-    //img_small = appendValue(img, "_small.png");
-    //img_thumb = appendValue(img, "_thumb.png");
-    //console.log(img_medium)
+    img.file_format = file_format;
     img.current = 0;
-
-    /* Preload gallery */
-    preload(img_medium);
-
-    /* Load two images to use as double buffering */
-    $(".photo1 img").prop("src", img_medium[0]);
-    $(".photo2 img").prop("src", img_medium[1]);
-    $(".photo1 .label").get(0).innerHTML = img_description[0];
-    $(".photo2 .label").get(0).innerHTML = img_description[1];
-    //loadBaseEvents();
-    /* Build thumbnail gallery */
-    thumbGallery(img);
+    createGallery(img, img_description);
+}
+</script>
+';
+} elseif($page == "news" && $_GET["id"] == 17) {
+    echo '<script type="text/javascript">
+onload = function() {
+    dir = "images/articles/17/";
+    file_format = "jpg";
+    interval = 7000;
+    img = ["P1000832", "P1000831", "P1000810", "P1000814", "P1000815", "P1000817", "P1000833", "P1000804", "P1000805", "P1000818", "P1000800", "P1000806", "P1000807", "P1000819", "P1000801", "P1000802", "P1000803", "P1000820", "P1000808", "P1000811", "P1000809", "P1000812", "P1000821", "P1000827", "P1000822", "P1000826", "P1000828", "P1000830"]
+    img_description = ["Front view of the installed 3D printed buttons, with the new Ripple Cap and Start/Select buttons shown in white.", "Side view of the Ripple Cap and Start/Select buttons.", "Isometric view of the new Ripple Cap and Start/Select buttons shown in white.", "An overview showing the Ripple, Scoop and Dish Cap next to the original Analog Cap in black intended for use with the analog stick.", "Side view of each of the Analog Caps.", "Bottom view of each of the Analog Caps.", "The new Ripple Cap and Start/Select buttons shown in white.", "Side view of the Ripple Cap shown in white.", "Side view of the Ripple Cap shown in white.", "A comparison between the original Analog Cap and the Ripple Cap.", "Front view of the new Scoop Cap and Start/Select buttons shown in white.", "Side view of the new Scoop Cap shown in white.", "Side view of the new Scoop Cap shown in white.", "A comparison between the original Analog Cap and the Scoop Cap.", "The new Dish Cap and Start/Select buttons shown in white.", "Side view of the Dish Cap shown in white.", "Side view of the Dish Cap shown in white.", "A comparison between the original Analog Cap and the Dish Cap.", "Side view of the new Start/Select buttons shown in white.", "Side view of the new Start/Select buttons shown in white.", "Side view of the new Start/Select buttons shown in white.", "Side view of the new Start/Select buttons shown in white.", "Top view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button.", "Top view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button.", "Side view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button.", "Side view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button.", "Side view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button.", "Bottom view showing a comparison between the original Start/Select buttons and its 3D printed counterpart which can act as both a Start and Select button."]
+    img = prependValue(dir, img);
+    img.file_format = file_format;
+    img.current = 0;
+    createGallery(img, img_description);
 }
 </script>
 ';

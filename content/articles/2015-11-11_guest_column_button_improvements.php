@@ -11,7 +11,7 @@
 
 <p>We have created a store at <a href="https://www.shapeways.com/shops/gcw-zero" target=“_blank”>Shapeways</a> to show you what we've been working on.</p>
 
-<div id="full_photo">
+<div id="photo_view">
     <div class="photo1" style="opacity: 1; z-index: 2;">
         <img>
         <span class="label"></span>

@@ -41,12 +41,15 @@ if(isset($_GET['id'])) {
         include "articles/2015-11-23_game_release_fruity.php";
     } elseif($product_id == 16) {
         include "articles/2015-11-11_guest_column_button_improvements.php";
+    } elseif($product_id == 17) {
+        include "articles/2016-11-20_guest_column_analog_caps_and_start_select_buttons.php";
     } else {
         echo 'Page does not exist.';
     }
 
 } else {
     echo '<h1>News</h1>
+2016-11-20 - <a href="news.php?id=17">GCW Parts Store Announces New Analog Caps and Start/Select Buttons</a><br>
 2015-12-22 - <a href="news.php?id=16">The Wait Is Over! - Announcing The Official GCW 3D Printed Parts Store</a><br>
 2015-11-23 - <a href="news.php?id=15">Game Release - Fruit\'Y</a><br>
 2015-09-21 - <a href="news.php?id=14">Guest Column - Making of Hase</a><br>
