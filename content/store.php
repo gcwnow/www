@@ -12,7 +12,14 @@ include "includes/header.php";
 <ul class="gallery resellers">
 
 <li>
-<a href="http://ithic.com/newsite/index.php?id_category=8&controller=category">
+<a href="https://www.dreamesper.com/shop/">
+<span class="bgimage" style="background-image: url(images/resellers/dreamesper.png); background-size: 60%"></span>
+<span class="label">Dreamesper (USA/Europe)</span>
+</a>
+</li>
+
+<li>
+<a href="http://ithic.com">
 <span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
 <span class="label">Ithic.com (USA)</span>
 </a>
