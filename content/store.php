@@ -12,21 +12,21 @@ include "includes/header.php";
 <ul class="gallery resellers">
 
 <li>
-<a href="https://www.dreamesper.com/shop/">
+<a href="https://www.dreamesper.com/shop/" target="_blank">
 <span class="bgimage" style="background-image: url(images/resellers/dreamesper.png); background-size: 60%"></span>
 <span class="label">Dreamesper (USA/Europe)</span>
 </a>
 </li>
 
 <li>
-<a href="http://ithic.com">
-<span class="bgimage" style="background-image: url(images/resellers/ithic.png);"></span>
-<span class="label">Ithic.com (USA)</span>
+<a href="https://retro-gaming-fanatic.com/" target="_blank">
+<span class="bgimage" style="background-image: url(images/resellers/retro_gaming_fanatic_small.jpg);"></span>
+<span class="label">Retro Gaming Fanatic (USA)</span>
 </a>
 </li>
 
 <li>
-<a href="https://www.dragonbox.de/en/84-gcw-zero/">
+<a href="https://www.dragonbox.de/en/84-gcw-zero/" target="_blank">
 <span class="bgimage" style="background-image: url(images/resellers/dragonbox.jpg);"></span>
 <span class="label">DragonBox (Europe)</span>
 </a>
