@@ -14,7 +14,7 @@ include "includes/header.php";
 <li>
 <a href="https://www.dreamesper.com/shop/" target="_blank">
 <span class="bgimage" style="background-image: url(images/resellers/dreamesper.png); background-size: 60%"></span>
-<span class="label">Dreamesper (USA/Europe)</span>
+<span class="label">Dreamesper (USA/Canada/Europe)</span>
 </a>
 </li>
 
