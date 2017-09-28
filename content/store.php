@@ -12,13 +12,6 @@ include "includes/header.php";
 <ul class="gallery resellers">
 
 <li>
-<a href="https://www.dreamesper.com/shop/" target="_blank">
-<span class="bgimage" style="background-image: url(images/resellers/dreamesper.png); background-size: 60%"></span>
-<span class="label">Dreamesper (USA/Canada/Europe)</span>
-</a>
-</li>
-
-<li>
 <a href="https://retro-gaming-fanatic.com/" target="_blank">
 <span class="bgimage" style="background-image: url(images/resellers/retro_gaming_fanatic_small.jpg);"></span>
 <span class="label">Retro Gaming Fanatic (USA)</span>
