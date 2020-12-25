@@ -88,7 +88,7 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 
 <h2>Network and adding more .OPK packages via SFTP</h2>
 
-<p>Note: if your host system is Windows, please refer to <a href="http://prizma.bmstu.ru/~exmortis/posts/2015-05-02-gcw0-qemu.html">this</a> article to properly set up PuTTY to catch serial output from QEMU. Without it you can pretty much do nothing.</p>
+<p>Note: if your host system is Windows, please refer to <a href="https://dmitrysmagin.github.io/posts.html#2015-05-02-gcw0-qemu.md ">this</a> article to properly set up PuTTY to catch serial output from QEMU. Without it you can pretty much do nothing.</p>
 <p>On Linux just run <code class="inline_code">run-gcw0.sh</code> from the console and you'll see the kernel boot log directly appear in your console which should end with a command prompt.</p>
 
 <ul class="gallery2" style="width: 338px;">
@@ -134,7 +134,7 @@ GCW Zero developer Dmitry Smagin has released pre-compiled binaries of OpenDingu
 <div class="faq_answer">A: Well, there are many situations when the real handheld is not available but you have to develop or test something and compiling for x86 is not an option. E.g. when your host is Windows and your application uses some linux-specific features that MinGW or Cygwin can't handle. Or, when you are testing the behavior of your application in OpenDingux environment (using correct paths etc). Or, when you are developing an emulator with a MIPS dynarec and that obviously can't be compiled for other architectures.</div></li>
 
 <li><div class="faq_question">Q: Hey, how it's done? Can I create my own OpenDingux images for QEMU?</div>
-<div class="faq_answer">A: Everything is explained step by step in a more technical article <a href="http://prizma.bmstu.ru/~exmortis/posts/2015-05-02-gcw0-qemu.html">here</a>.</div></li>
+<div class="faq_answer">A: Everything is explained step by step in a more technical article <a href="https://dmitrysmagin.github.io/posts.html#2015-05-02-gcw0-qemu.md ">here</a>.</div></li>
 
 <li><div class="faq_question">Q: My OPK doesn't start in emulator but it works on real GCW Zero! Why so?</div>
 <div class="faq_answer">A: Most probably you have found another incompatibility. Contact the author and perhaps things could be fixed in the future.</div></li>
