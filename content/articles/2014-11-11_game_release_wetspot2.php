@@ -28,6 +28,6 @@ in 1997, Dmitry Smagin created a full re-implementation of the Wetspot 2 game en
 
 <p>
 <a name="1"></a>[1] <a href="https://github.com/dmitrysmagin/wetspot2">https://github.com/dmitrysmagin/wetspot2</a><br>
-<a name="2"></a>[2] <a href="http://www.ecplusplus.com/">http://www.ecplusplus.com</a><br>
+<a name="2"></a>[2] <a href="https://geocities.restorativland.org/SiliconValley/Lakes/7303/">https://geocities.restorativland.org/SiliconValley/Lakes/7303/</a><br>
 <a name="3"></a>[3] <a href="http://modarchive.org/index.php?request=view_profile&query=84702">http://modarchive.org/index.php?request=view_profile&query=84702</a><br>
 <a name="4"></a>[4] <a href="http://repo.gcw-zero.com">http://repo.gcw-zero.com</a></p>
